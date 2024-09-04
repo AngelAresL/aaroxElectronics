@@ -1,0 +1,155 @@
+.cookies-main {
+	color: var(--black);
+	padding-bottom: 3rem;
+}
+
+.cookies-main p {
+	line-height: 1.7rem;
+	padding-bottom: 1rem;
+}
+
+.cookies-header {
+	margin-top: 72px;
+	background-color: var(--dark-green);
+	color: var(--background);
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.cookies-header h1 {
+	font-weight: 400;
+}
+
+.cookies-header h2 {
+	font-size: 0.8rem;
+	font-weight: 300;
+}
+
+.cookies-section {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 4rem;
+}
+
+.cookies-section h2 {
+	color: var(--dark-green);
+	font-weight: 600;
+	padding-bottom: 1.5rem;
+}
+
+.cookies-section ul {
+	padding-left: 2.5rem;
+}
+
+.cookies-section ul li::marker {
+	color: var(--dark-green);
+}
+
+.cookies-section ul li span {
+	color: var(--dark-green);
+	font-weight: 700;
+	padding-bottom: 0.5rem;
+}
+
+.cookies-table1,
+.cookies-table2 {
+	max-width: 100vw;
+	overflow-x: scroll;
+	margin-left: 2.5rem;
+	margin-bottom: 1rem;
+}
+
+.cookies-table1 table,
+.cookies-table2 table {
+	border-collapse: collapse;
+}
+
+.cookies-table1 table thead tr th,
+.cookies-table2 table thead tr th {
+	color: var(--dark-green);
+}
+
+.cookies-table1 table thead tr th,
+.cookies-table1 table tbody tr td,
+.cookies-table2 table thead tr th,
+.cookies-table2 table tbody tr td {
+	border: 2px solid var(--dark-green);
+	padding: 0.8rem;
+	text-align: center;
+}
+
+.cookies-table1 table thead tr th:nth-child(3) {
+	min-width: 500px;
+}
+
+.cookies-table1 table thead tr th:nth-child(4) {
+	min-width: 150px;
+}
+
+.cookies-table2 table thead tr th:nth-child(3) {
+	min-width: 300px;
+}
+
+.cookies-table2 table thead tr th:nth-child(4) {
+	min-width: 800px;
+}
+
+.cookies-section h3 {
+	color: var(--dark-green);
+	padding-bottom: 0.5rem;
+}
+
+.cookies-section ul li a,
+.cookies-section p a {
+	color: var(--forest-green);
+}
+
+@media (min-width: 768px) {
+	.cookies-header {
+		margin-top: 107px;
+	}
+
+	.cookies-section {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+}
+
+@media (min-width: 1366px) {
+	.cookies-main {
+		display: flex;
+		align-items: center;
+	}
+
+	.cookies-header {
+		width: 100%;
+	}
+
+	.cookies-section {
+		max-width: 1150px;
+	}
+
+	.cookies-table1,
+	.cookies-table2 {
+		overflow: auto;
+	}
+
+	.cookies-section ul li a:hover,
+	.cookies-section p a:hover {
+		color: var(--emerald-green);
+	}
+
+	.cookies-table2 table thead tr th:nth-child(3) {
+		min-width: 200px;
+		max-width: 200px;
+	}
+
+	.cookies-table2 table thead tr th:nth-child(4) {
+		min-width: 500px;
+		max-width: 500px;
+	}
+}

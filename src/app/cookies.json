@@ -1,0 +1,252 @@
+{
+  "EN": {
+    "title": "Cookies Policy",
+    "subtitle": "Bacause we have to have it",
+    "firstParagraph": "This Cookie Policy aims to provide the necessary information so that any user of the website “aaroxelectronics.es” may decide whether he or she wishes to allow the installation of the cookies used by Aarox Electronics, S.L. (hereinafter the Publisher) and learn how to manage them.",
+    "secondParagraph": "The information regarding the Cookie Policy that applies to the website cobaltomodules.com (hereinafter the Website) is provided through two layers: the first is a “notice” in the footer of the website that warns about the installation of non-exempt cookies —describing their purpose; the second information layer is a link to this Policy so that the user may know their content and operation in greater detail.",
+    "thirdParagraph": "This Policy is public and permanently accessible through the link provided on the website —named “Cookie Policy”—, and may be updated at any time, either due to a regulatory change or due to modifications to the configuration of the cookies used.",
+    "fourthParagraph": "The Publisher may use cookies, and other similar technologies, to store and retrieve information on/from the terminals of the users of its websites (hereinafter, collectively referred to as “Cookies”). Cookies are computer files or programs, sent to a browser through a web server, that store information on the user’s device, when accessing or browsing a website, and allow such information to be accessed once they are installed. In other words, they are pieces of information installed by a website on your device when you visit it. These devices may contain information about the users’ browsing habits or about the equipment on which they are installed, and they can even be used to identify the user.",
+    "typesSection": "There are several types of cookies, based on the purpose they serve. The following cookies are used on the website aaroxelectronics.es:",
+    "linkTitle": "here",
+    "analytics": {
+      "title": "Analytics",
+      "desc": "Cookies that allow tracking and analysis of the website users’ behaviour. They make it possible to tally up the number of users and, thus, measure and statistically analyse the usage of the website by the users. This is done by analysing the user’s browsing on the website in order to improve the products or services on offer. For these analyses we use the Google Analytics service, whose terms and conditions are available here."
+    },
+    "technical": {
+      "title": "Technical",
+      "desc": {
+        "firstPart": "Cookies that allow the user to browse the website and use the different options or services that it offers, such as setting up the usage of the cookies employed by the website, identifying the session, controlling traffic and communicating data, or checking for fraud related to the security of the service. As an anti-spam security measure we use the RECaptcha service by Google —in order to tell humans and bots apart—, whose terms and conditions are available ",
+        "secondPart": "Likewise, in order to provide certain functionalities and contents we use the services offered by YouTube and Google Maps, whose terms and conditions are available "
+      },
+      "recaptcha": "https://policies.google.com/privacy?hl=en#infocollect",
+      "youtubeMaps": "https://policies.google.com/privacy?hl=en"
+    },
+    "marketing": {
+      "title": "Marketing",
+      "desc": "Likewise, in order to provide certain functionalities and contents we use the services offered by YouTube and Google Maps, whose terms and conditions are available ",
+      "link": "https://policies.google.com/privacy?hl=en" 
+    },
+    "socials": {
+      "title": "Socials",
+      "desc": "Cookies that social media service providers may install when the user elects to share certain contents of the website on the social media they operate. The terms and conditions for these services are available on the following addresses: ",
+      "linkedin": "https://www.linkedin.com/legal/cookie-policy?"
+    },
+    "fifthParagraph": "Likewise, depending on the entity that manages the equipment or domain from which the cookies are sent and that processes the collected data, cookies can be classified as own or third party. According to this classification, the Website uses the following cookies:",
+    "own": {
+      "title": "Own",
+      "desc": "Those installed and managed directly by the Publisher.",
+      "table": {
+        "purpose": "Purpose",
+        "purposeDesc": "Technical",
+        "name": "Name",
+        "description": "Description",
+        "aecDesc": "It is used to make sure the requests within a browsing session are made by the user, not by other sites.",
+        "socsDesc": "It is used to store a user’s status regarding his or her cookie options.",
+        "duration": "Duration",
+        "months": "5 months"
+      }
+    },
+    "thirdParties": {
+        "title": "Third parties",
+        "desc": "Those installed by entities other than the Publisher or those where the information is managed by third parties, despite the cookies being installed from an equipment or domain managed by the Publisher. The Publisher has integrated add-ons by external providers, such as Google, Inc, on its website. These third parties and their cookies are governed by their own Terms and Conditions, stated previously when describing the types of cookies according to their purpose.",
+        "table": {
+          "thirdParty": "Third party",
+          "descThirdParty": "Google",
+          "name": "Name",
+          "description": "Description",
+          "duration": "Duration",
+          "purpose": {
+            "title": "Purpose",
+            "technical": {
+              "title": "Technical",
+              "sidDesc": "Used by Google. They contain digitally-signed, encrypted records of a user’s Google account ID and the most recent login time. The combination of these cookies allows Google to block many kinds of attacks, such as attempts to steal the content of forms submitted through Google services.",
+              "sidDuration": "4 months",
+              "ssidDesc": "The cookies HSID, SSID, APISID and SAPISID allow Google to collect user information for videos hosted on YouTube.",
+              "ssidDuration": "4 months",
+              "ogpcDesc": "It is used to display geographical locations by using Google Maps when visiting the page. It has a functionality purpose and saves the data related to the location.",
+              "rcDesc": "Its purpose is telling humans apart from bots. Used by Google reCAPTCHA.",
+              "rcDuration": "Persistent Session"
+            },
+            "analytics": {
+              "title": "Analytics",
+              "gDesc": "Its purpose is telling users apart and measuring the ways they interact with the site's content. Used by Google Analytics.",
+              "gaDuration": "1 week",
+              "gidDuration": "1 day",
+              "gatDuration": "1 day"
+            },
+            "marketing": {
+              "title": "Marketing",
+              "jarDesc": "This cookie informs about the usage of the website by the end user and the ads the end user may have seen before visiting that website.",
+              "jarDuration": "1 week",
+              "nidDesc": "It’s used to show Google ads on Google services for users that haven’t logged in.",
+              "nidDuration": "5 months",
+              "enidDesc": "Google allows to customise the appearance of ads outside Google or to store information such as the preferred language when displaying search results.",
+              "enidDuration": "6 months",
+              "psidDesc": "Used by Google for orientation purposes, in order to create a profile based on the website visitor’s interests, so as to show relevant and personalised Google ads.",
+              "psidDuration": "4 months"
+            }
+          }
+        }
+    },
+    "sixthParagraph": "Google, Inc. is located in the USA and the acceptance of the cookies associated to its services entails the international transfer of the data resulting from the cookies to said provider. This transfer is based on the user’s consent, which may be withdrawn at any time. According to the European authorities, US law does not guarantee an adequate level of data protection. Google is affiliated to the Web Choices tool, from which the use of its cookies can be disabled: ",
+    "cookies": {
+      "title": "COOKIES",
+      "firstParagraph": "Cookies will be installed after obtaining the users’ consent, except for technical or necessary cookies, which will be installed in any case. Users may authorise cookie installation by clicking on “Accept” on the cookie notice.",
+      "secondParagraph": "Should the user wish to withdraw the consent given, he or she must delete the installed cookies and then choose “Reject” on the cookie notice. In order to prevent their future installation, it is possible to enable the Private Browsing or “Do-Not-Track” options on the browser, that is, to block or disable the installation of cookies.",
+      "thirdParagraph": "The user must keep in mind that some features of the website content are only available if the installation of cookies on the browser is allowed. Should you decide to reject or block certain cookies, depending on their purpose, this may affect, totally or partially, the normal operation of the website or prevent access to some of its services.",
+      "fourthParagraph": "In order to allow, block or delete the cookies installed on an equipment or device by configuring the options of the browser installed on it, the user must follow the instructions provided by the browser. These are the links for the configuration of cookies on the most popular browsers:",
+      "browser": {
+        "explorer": "Delete and manage cookies",
+        "linkExplorer": "https://support.microsoft.com/en-gb/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d#ie=ie-10",
+        "mozilla": {
+          "clear": "Clear cookies",
+          "linkClear": "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox",
+          "block": "and block cookies",
+          "linkBlock": "https://support.mozilla.org/en-US/kb/block-websites-storing-cookies-site-data-firefox"
+        },
+        "chrome": "Clear, enable and manage cookies",
+        "linkChrome": "https://support.google.com/chrome/answer/95647?hl=en",
+        "opera": "Cookie options",
+        "linkOpera": "https://help.opera.com/en/latest/web-preferences/#cookies",
+        "safari": "Manage cookies",
+        "linkSafari": "https://support.apple.com/en-gb/guide/safari/sfri11471/mac"
+      },
+      "fifthParagraph": "If you use some other browser or if the provided links do not contain the desired information, you can learn how to manage the cookies installed on an equipment by accessing the “Options”, “Settings”, or equivalent menus on the browser, or by referring to the “Help” or “Support” sections on the browser. Some browsers allow the configuration of specific rules —exceptions— in order to manage cookies on a per-site basis, so that the user can disable cookies for all sites except for those he or she trusts.",
+      "sixthParagraph": "On the other hand, if you wish to prevent Google Analytics from collecting data related to your access to the website, you can install the ",
+      "addon": "Google Analytics opt-out browser add-on ",
+      "linkAddon": "https://tools.google.com/dlpage/gaoptout?hl=en",
+      "seventhParagraph": "The add-on does not stop the information from being sent to the website or, through other means, to other web analytics services. There are additional privacy configuration options for Google services, available through these links: ",
+      "privacy": "Privacy Controls Google",
+      "linkPrivacy": "https://safety.google/intl/en/privacy/privacy-controls/",
+      "and": "and",
+      "partners": "Privacy partners Google",
+      "linkPartners": "https://policies.google.com/technologies/partner-sites?hl=en",
+      "eightParagraph": "The user must set his or her preferences on all the devices he or she uses to browse the Internet."
+    }
+  },
+  "ES": {
+    "title": "Política de Cookies",
+    "subtitle": "Porque tenemos que tenerla",
+    "firstParagraph": "La presente Política de Cookies pretende proporcionar la información necesaria para que cualquier usuario del sitio web ‘cobaltomodules.com’ pueda decidir si desea permitir la instalación de las cookies utilizadas por Aarox Electronics, S.L. (en adelante, el Editor) y cómo gestionarlas.",
+    "secondParagraph": "La información sobre la Política de cookies aplicable al sitio web cobaltomodules.com (en adelante, el Sitio Web) se proporciona a través de dos capas: la primera, un “aviso” en el pie de página del sitio web, en el que se advierte de la instalación de cookies no exentas -describiendo su finalidad- y se proporciona un enlace a la presente Política para que el usuario pueda conocer con más detalle su contenido y funcionamiento, siendo ésta la segunda capa de información.",
+    "thirdParagraph": "Esta Política es pública y permanentemente accesible a través del enlace habilitado en el Sitio Web -denominado “Política de Cookies”-, y puede ser actualizada en cualquier momento, como consecuencia de un cambio normativo o como consecuencia de cualquier cambio en la configuración de las cookies utilizadas.",
+    "fourthParagraph": "El Editor puede utilizar cookies, y otras tecnologías similares, para almacenar y recuperar información de los equipos terminales de los usuarios de sus sitios web (en adelante, denominadas conjuntamente “Cookies”). Las cookies son archivos o programas informáticos, enviados a un navegador por medio de un servidor web, que almacenan información en el equipo del usuario, al acceder o navegar por un sitio web, y permiten que se acceda a ésta tras su instalación. En otras palabras, son elementos de información que un sitio web instala en su dispositivo cuando lo visita. Estos dispositivos pueden contener información sobre los hábitos de navegación de los usuarios o del equipo en que se instalan, o incluso pueden utilizarse para reconocer el usuario.",
+    "typesSection": "Existen diversos tipos de cookies en función de la finalidad para la que se utilizan. En el sitio web aaroxelectronics.es se utilizan las siguientes cookies:",
+    "linkTitle": "aquí",
+    "analytics": {
+      "title": "Analíticas",
+      "desc": "Son aquéllas que permiten realizar el seguimiento y análisis del comportamiento de los usuarios del sitio web. Permiten cuantificar el número de usuarios y así realizar la medición y análisis estadístico de la utilización que hacen los usuarios del sitio web. Para ello se analiza la navegación el usuario en la página web con el fin de mejorar la oferta de productos o servicios que se ofrecen. Para realizar estos análisis utilizamos el servicio Google Analitycs, cuyas condiciones pueden consultarse aquí."
+    },
+    "technical": {
+      "title": "Técnicas",
+      "desc": {
+        "firstPart": "Son aquéllas que permiten al usuario la navegación a través de la página web y la utilización de las diferentes opciones o servicios que existen en ella como, por ejemplo, configurar el uso de las cookies utilizadas por el sitio web, identificar la sesión, controlar el tráfico y la comunicación de datos, o controlar el fraude vinculado a la seguridad del servicio. Como medida de seguridad contra el spam utilizamos el servicio de Google RECaptcha, para distinguir entre humanos y bots, cuyas condiciones pueden consultarse ",
+        "secondPart": "Del mismo modo, se utilizan los servicios de Youtube y Google Maps, para la provisión de determinadas funcionalidades y contenidos, cuyas condiciones pueden consultarse en "
+      },      
+      "recaptcha": "https://policies.google.com/privacy?hl=es#infocollect",
+      "youtubeMaps": "https://policies.google.com/privacy?hl=es"
+    },
+    "marketing": {
+      "title": "Marketing",
+      "desc": "Son aquellas que permiten analizar los hábitos de navegación de los usuarios en Internet para que poder mostrarle publicidad relacionada con su perfil de navegación. Con este fin empleamos el servicio de Google Ads cuyas condiciones pueden consultarse ",
+      "link": "https://policies.google.com/privacy?hl=es" 
+    },
+    "socials": {
+      "title": "Sociales",
+      "desc": "Son aquéllas que los proveedores de servicios de redes sociales pueden instalar cuando el usuario selecciona compartir un determinado contenido del sitio web en la red social que operan. Las condiciones de estos servicios pueden consultarse en las siguientes direcciones: ",
+      "linkedin": "https://es.linkedin.com/legal/cookie-policy?"
+    },
+    "fifthParagraph": "Del mismo modo, según quien sea la entidad que gestione el equipo o dominio desde donde se envían las cookies y trate los datos que se obtengan, puede distinguirse entre cookies propias y cookies de Terceros. En atención a esta clasificación, el sitio web utiliza las siguientes cookies:",
+    "own": {
+      "title": "Propias",
+      "desc": "Son aquellas que se instalan y gestionan directamente por el Editor.",
+      "table": {
+        "purpose": "Finalidad",
+        "purposeDesc": "Técnica",
+        "name": "Nombre",
+        "description": "Descripción",
+        "aecDesc": "Se emplea para asegurar que las solicitudes dentro de una sesión de navegación sean realizadas por el usuario, y no por otros sitios.",
+        "socsDesc": "Se utiliza para almacenar el estado de un usuario con respecto a sus opciones de cookies.",
+        "duration": "Duración",
+        "months": "5 meses"
+      }
+    },
+    "thirdParties": {
+        "title": "Terceros",
+        "desc": "Son aquellas que se instalan por entidades ajenas a al Editor, o que aun instaladas desde un equipo o dominio gestionado por el Editor la información es gestionada por terceros. El Editor ha integrado en su sitio web complementos de proveedores externos, como Google, Inc. Estos terceros, y sus cookies, se rigen por sus propias Condiciones, indicadas anteriormente al exponer las clases de cookies según su finalidad.",
+        "table": {
+          "thirdParty": "Tercero",
+          "descThirdParty": "Google",
+          "name": "Nombre",
+          "description": "Descripción",
+          "duration": "Duración",
+          "purpose": {
+            "title": "Finalidad",
+            "technical": {
+              "title": "Técnica",
+              "sidDesc": "Utilizados por Google. Contienen registros cifrados y firmados digitalmente del ID de la cuenta de Google de un usuario y la hora de inicio de sesión más reciente. La combinación de estas cookies permite a Google bloquear muchos tipos de ataques, como los intentos de robar el contenido de los formularios enviados en los servicios de Google.",
+              "sidDuration": "4 meses",
+              "ssidDesc": "Las cookies HSID, SSID, APISID y SAPISID permiten a Google recopilar información del usuario para videos alojados en YouTube.",
+              "ssidDuration": "4 meses",
+              "ogpcDesc": "Se utiliza para visualizar ubicaciones geográficas utilizando los mapas de Google Maps al visitar la página. Tiene una finalidad de funcionalidad y guarda los datos correspondientes a la ubicación.",
+              "rcDesc": "Para distinguir entre humanos y bots. Utilizada por Google reCAPTCHA.",
+              "rcDuration": "Persistente Sesión"
+            },
+            "analytics": {
+              "title": "Analítica",
+              "gDesc": "Para distinguir a los usuarios y medir cómo interactúan con el contenido del sitio. Utilizada por Google Analytics.",
+              "gaDuration": "1 semana",
+              "gidDuration": "1 día",
+              "gatDuration": "1 día"
+            },
+            "marketing": {
+              "title": "Marketing",
+              "jarDesc": "Esta cookie realiza información sobre el uso del sitio web por parte del usuario final y la publicidad que el usuario final pudo haber visto antes de visitar dicho sitio web.",
+              "jarDuration": "1 semana",
+              "nidDesc": "Se utiliza para mostrar anuncios de Google en los servicios de Google para usuarios que no han iniciado sesión.",
+              "nidDuration": "5 meses",
+              "enidDesc": "Google permite personalizar cómo se ven anuncios fuera de Google o almacenar información como el idioma preferido a la hora de mostrar resultados de búsqueda.",
+              "enidDuration": "6 meses",
+              "psidDesc": "Utilizado por Google, con fines de orientación, para crear un perfil de los intereses del visitante del sitio web a fin de mostrar publicidad de Google relevante y personalizada.",
+              "psidDuration": "4 meses"
+            }
+          }
+        }
+      },
+    "sixthParagraph": "Google, Inc. se encuentra ubicado en EUA y la aceptación de las cookies asociadas a sus servicios implica la transferencia internacional de los datos derivados de las cookies a dicho proveedor. Esta transferencia está basada en el consentimiento del usuario, el cual es revocable en todo momento. La legislación de Estados Unidos no garantiza un nivel adecuado de protección de datos a criterio de las autoridades europeas. Google se encuentra adscrito a la herramienta Web Choices, desde la cual, puede deshabilitarse el uso de sus cookies: ",
+    "cookies": {
+      "title": "COOKIES",
+      "firstParagraph": "La instalación de las cookies se producirá tras obtener el consentimiento de los usuarios, salvo las cookies técnicas o necesarias que se instalarán en todo caso. Los usuarios pueden autorizar la instalación de cookies clicando en “Aceptar” en el aviso de cookies.",
+      "secondParagraph": "Si el usuario desea revocar el consentimiento prestado debe eliminar las cookies instaladas y después seleccionar “Rechazar” en el aviso de cookies. Para evitar que se instalen en el futuro existe la posibilidad de activar las opciones de Navegación Privada o “Do-Not-Track” previstas en el navegador, es decir, bloquear o desactivar la instalación de cookies.",
+      "thirdParagraph": "El usuario debe tener en cuenta que algunas características de los contenidos del sitio web solo están disponibles si se permite la instalación de cookies en el navegador. Si decide no aceptar o bloquear determinadas cookies, en función de su finalidad, puede que esto afecte, total o parcialmente, al funcionamiento normal del sitio web o que impida el acceso a algunos servicios del mismo.",
+      "fourthParagraph": "Para permitir, bloquear o eliminar las cookies instaladas en un equipo o dispositivo mediante la configuración de las opciones del navegador instalado en el mismo, deben seguirse las instrucciones proporcionadas por el propio navegador. A continuación, se proporcionan los enlaces para configurar las cookies de los navegadores más populares:",
+      "browser": {
+        "explorer": "Elimina y administra cookies",
+        "linkExplorer": "https://support.microsoft.com/es-es/windows/administrar-cookies-en-microsoft-edge-ver-permitir-bloquear-eliminar-y-usar-168dab11-0753-043d-7c16-ede5947fc64d#ie=ie-10",
+        "mozilla": {
+          "clear": "Borrar cookies",
+          "linkClear": "https://support.mozilla.org/es/kb/Borrar%20cookies",
+          "block": "y bloquear cookies",
+          "linkBlock": "https://support.mozilla.org/es/kb/impedir-que-los-sitios-web-guarden-sus-preferencia"
+        },
+        "chrome": "Borrar, habilitar y administrar cookies",
+        "linkChrome": "https://support.google.com/chrome/answer/95647?hl=es",
+        "opera": "Opciones de cookies",
+        "linkOpera": "https://help.opera.com/en/latest/web-preferences/#cookies",
+        "safari": "Gestionar cookies",
+        "linkSafari": "https://support.apple.com/es-es/guide/safari/sfri11471/mac"
+      },
+      "fifthParagraph": "Si se utiliza cualquier otro navegador, o los enlaces proporcionados no contienen la información deseada, es posible localizar cómo gestionar las cookies que se instalan en un equipo accediendo al menú “Opciones” o “Configuración” –o equivalente- del navegador, o bien consultando la sección de “Ayuda” o “Soporte” del propio navegador. Hay navegadores que permiten configurar reglas específicas –excepciones- para administrar las cookies por sitio web, de forma que pueden inhabilitarse las cookies de todos los sitios salvo de aquellos en los que se confíe.",
+      "sixthParagraph": "Por otro lado, si no se desea que Google Analytics recopile datos de la visita al sitio web, puede instalarse el ",
+      "addon": "complemento de inhabilitación ",
+      "linkAddon": "https://tools.google.com/dlpage/gaoptout?hl=es",
+      "seventhParagraph": "para navegadores de Google Analytics. El complemento no evita que la información se envíe al sitio web o, por otras vías, a otros servicios de analítica web. Además, existen otras opciones de configuración de la privacidad de los servicios de Google en los siguientes enlaces: ",
+      "privacy": "Privacy Controls Google",
+      "linkPrivacy": "https://safety.google/intl/es/privacy/privacy-controls/",
+      "and": "y",
+      "partners": "Privacy partners Google",
+      "linkPartners": "https://policies.google.com/technologies/partner-sites?hl=es",
+      "eightParagraph": "El usuario debe configurar sus preferencias en todos los dispositivos que utilice para navegar por internet."
+    }
+  }
+}

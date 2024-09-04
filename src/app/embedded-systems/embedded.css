@@ -1,0 +1,8 @@
+.main-embedded {
+	background-color: var(--background-3dsection);
+}
+
+.fifthSection-embedded {
+	display: flex;
+	flex-direction: column;
+}

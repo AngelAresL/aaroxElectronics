@@ -1,0 +1,138 @@
+.aside-section {
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	z-index: 1;
+}
+
+.container-text {
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.aside-icon {
+	align-self: center;
+	margin-bottom: 1rem;
+}
+
+.aside-section h2,
+.aside-section p {
+	text-align: center;
+	padding: 0 1rem;
+	color: var(--dark-green);
+}
+
+.aside-section h2 {
+	padding-bottom: 0.5rem;
+}
+
+.aside-section p {
+	line-height: 1.4;
+}
+
+.container-smallArrow {
+	align-self: center;
+	width: 20px;
+	margin: 3rem 0;
+}
+
+.container-img-schematics {
+	position: relative;
+	width: 100%;
+	min-height: 250px;
+	align-self: center;
+	margin-top: 1rem;
+}
+
+.container-img-schematics img {
+	object-fit: contain;
+}
+
+@media (min-width: 768px) {
+	.aside-section h2,
+	.aside-section p {
+		padding: 0 1.5rem;
+	}
+
+	.aside-section h2 {
+		font-size: 2rem;
+		padding-bottom: 0.5rem;
+	}
+
+	.aside-section p {
+		font-size: 1.5rem;
+	}
+
+	.container-smallArrow {
+		margin-bottom: 4rem;
+	}
+
+	.container-img-schematics {
+		margin-top: 3rem;
+		min-height: 450px;
+	}
+}
+
+@media (min-width: 1366px) {
+	.aside-section {
+		flex-direction: row;
+		height: 516px;
+	}
+
+	.container-text {
+		align-items: flex-start;
+	}
+
+	.aside-icon {
+		align-self: flex-start;
+		margin-left: 1.5rem;
+	}
+
+	.aside-section h2,
+	.aside-section p {
+		text-align: left;
+		width: 560px;
+	}
+
+	.aside-section p {
+		font-size: 1.2rem;
+	}
+
+	.aside-section:nth-child(3),
+	.aside-section:nth-child(5) {
+		flex-direction: row-reverse;
+	}
+
+	.container-img-schematics {
+		width: 576px;
+		height: 450px;
+		margin-top: 0;
+	}
+
+	.container-img-schematics img {
+		object-fit: cover;
+	}
+}
+
+@media (min-width: 1920px) {
+	.aside-section h2 {
+		font-size: 2.5rem;
+	}
+
+	.aside-section p {
+		font-size: 1.5rem;
+	}
+	.aside-section:nth-child(2) .container-text,
+	.aside-section:nth-child(4) .container-text,
+	.aside-section:nth-child(6) .container-text {
+		margin-right: 10rem;
+	}
+
+	.aside-section:nth-child(3) .container-text,
+	.aside-section:nth-child(5) .container-text {
+		margin-left: 10rem;
+	}
+}

@@ -1,0 +1,151 @@
+.power-fifthSection {
+	min-height: 100vh;
+	background-color: var(--background-power);
+	position: relative;
+	z-index: 1;
+	padding: 3rem 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.power-fifthSection-title {
+	font-weight: 700;
+	color: var(--dark-green);
+	font-size: 2.25rem;
+}
+
+.power-fifthSection-title span {
+	color: var(--emerald-green);
+}
+
+.power-fifthSection-subtitle {
+	font-weight: 500;
+	color: var(--dark-green);
+	padding: 1rem 0;
+}
+
+.fifthSection-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 1rem;
+	padding-top: 1rem;
+}
+
+.fifthSection-list li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	padding-bottom: 0.5rem;
+}
+
+.fifthSection-list li::before {
+	content: "";
+	width: 4px;
+	height: 4px;
+	border: 4px solid var(--emerald-green);
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 0.5rem;
+}
+
+.container-calculations {
+	height: 250px;
+	width: 100%;
+	position: relative;
+	filter: drop-shadow(0 2px 8px #1c3e35);
+	margin-top: 1rem;
+}
+
+.container-calculations img {
+	object-fit: contain;
+}
+
+@media (min-width: 768px) {
+	.power-fifthSection {
+		padding: 5rem 1.5rem;
+		align-items: center;
+	}
+
+	.power-fifthSection-title {
+		font-size: 3rem;
+		width: 85%;
+	}
+
+	.power-fifthSection-subtitle {
+		font-size: 1.5rem;
+		width: 85%;
+		padding: 2rem 0;
+	}
+
+	.fifthSection-list {
+		width: 85%;
+	}
+
+	.fifthSection-list li {
+		font-size: 1.2rem;
+		padding-bottom: 1rem;
+	}
+
+	.aside-calculations {
+		width: 85%;
+	}
+
+	.container-calculations {
+		margin-top: 3rem;
+		height: 450px;
+	}
+}
+
+@media (min-width: 1366px) {
+	.power-fifthSection {
+		align-items: flex-start;
+		padding-left: 6rem;
+		overflow: hidden;
+	}
+
+	.power-fifthSection-title {
+		width: 45%;
+	}
+
+	.power-fifthSection-subtitle {
+		width: 45%;
+	}
+
+	.fifthSection-list {
+		width: 45%;
+	}
+
+	.aside-calculations {
+		position: absolute;
+		width: 100%;
+		height: 85%;
+		right: -50%;
+	}
+
+	.container-calculations {
+		height: 100%;
+		margin-top: 0;
+	}
+
+	.container-calculations img {
+		object-position: left;
+	}
+}
+
+@media (min-width: 1920px) {
+	.power-fifthSection {
+		padding: 6rem 1.5rem;
+		padding-left: 6rem;
+	}
+
+	.container-calculations img {
+		object-position: left top;
+	}
+
+	.aside-calculations {
+		width: 1350px;
+		height: 840px;
+		right: -20%;
+	}
+}

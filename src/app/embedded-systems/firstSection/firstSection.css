@@ -1,0 +1,133 @@
+.embedded-firstSection {
+	background-color: var(--dark-green);
+	margin-top: 72px;
+	height: calc(100vh - 72px);
+	color: var(--background);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.embedded-firstSection h1 {
+	font-size: 2.5rem;
+	text-wrap: balance;
+	padding-top: 3rem;
+}
+
+.embedded-firstSection h1 span {
+	color: var(--lime-green);
+}
+
+.embedded-firstSection h2 {
+	padding-top: 2rem;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.embedded-firstSection h2 span {
+	color: var(--lime-green);
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.embedded-firstSection aside {
+	position: absolute;
+	font-weight: 200;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	max-width: 1200px;
+	top: 330px;
+	font-size: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.embedded-firstSection aside p {
+	opacity: 0;
+}
+
+.embedded-firstSection aside p.show {
+	animation: navEmbedded 2s forwards;
+}
+
+@keyframes navEmbedded {
+	0% {
+		color: var(--background);
+		opacity: 0;
+		transform: translateY(100%);
+	}
+
+	100% {
+		color: var(--emerald-green);
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+
+@media (min-width: 768px) {
+	.embedded-firstSection {
+		margin-top: 107px;
+		height: calc(100vh - 107px);
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+
+	.embedded-firstSection h1 {
+		padding-top: 6rem;
+	}
+
+	.embedded-firstSection h2 {
+		max-width: 650px;
+		text-align: center;
+		padding-top: 3rem;
+		font-size: 2rem;
+	}
+
+	.embedded-firstSection h2 span {
+		font-size: 2rem;
+	}
+
+	.embedded-firstSection aside {
+		gap: 3rem;
+		top: 400px;
+		font-size: 3rem;
+		justify-content: center;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+}
+
+@media (min-width: 1366px) {
+	.embedded-firstSection h1 {
+		padding-top: 4rem;
+		font-size: 3.5rem;
+	}
+
+	.embedded-firstSection h2 {
+		max-width: 800px;
+	}
+
+	.embedded-firstSection aside {
+		top: 350px;
+		max-width: 1000px;
+	}
+}
+
+@media (min-width: 1920px) {
+	.embedded-firstSection h2 {
+		font-size: 2.5rem;
+	}
+
+	.embedded-firstSection h2 span {
+		font-size: 2.5rem;
+	}
+
+	.embedded-firstSection aside {
+		top: 425px;
+		max-width: 1200px;
+	}
+}

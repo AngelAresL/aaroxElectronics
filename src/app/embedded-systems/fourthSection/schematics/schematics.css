@@ -1,0 +1,62 @@
+.pcb-schematics {
+	position: fixed;
+	z-index: 1;
+	top: 25%;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.schematics-nav {
+	color: var(--background);
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-weight: 300;
+	font-size: 1.5rem;
+	gap: 1rem;
+}
+
+@media (min-width: 768px) {
+	.pcb-schematics {
+		top: 20%;
+		display: flex;
+		align-self: center;
+	}
+
+	.schematics-nav {
+		font-size: 2rem;
+		padding: 0 1.5rem;
+		gap: 2rem;
+	}
+}
+
+@media (min-width: 1366px) {
+	.schematics-nav {
+		font-size: 2.5rem;
+		margin-right: 0.5rem;
+		flex-direction: column;
+		text-align: end;
+		align-items: flex-end;
+		justify-content: end;
+		padding: 0;
+		gap: 1rem;
+	}
+
+	.pcb-schematics {
+		top: 52%;
+		transform: translateY(-50%);
+		align-self: flex-end;
+	}
+}
+
+@media (min-width: 1920px) {
+	.pcb-schematics {
+		top: 55%;
+	}
+
+	.schematics-nav {
+		font-size: 3rem;
+	}
+}

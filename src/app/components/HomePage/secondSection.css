@@ -1,0 +1,145 @@
+.home-second-section {
+	background-image: url("../../assets/images/homePage/secondSection/circuits.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 72px;
+	color: var(--background);
+	height: 90vh;
+}
+
+.green-line {
+	object-fit: cover;
+}
+
+.line-container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 63, 26, 0.8);
+	padding-left: 18px;
+}
+
+.article-container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 0 1rem;
+	position: absolute;
+	z-index: 1;
+}
+
+.first-article,
+.second-article {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+}
+
+.first-article h2,
+.second-article h2 {
+	padding-bottom: 1rem;
+}
+
+.second-article {
+	align-items: end;
+	align-self: flex-end;
+}
+
+.first-article p,
+.second-article p {
+	font-weight: 300;
+}
+
+.second-article p {
+	text-align: right;
+}
+
+.first-article a,
+.second-article a {
+	padding-top: 1rem;
+}
+
+.first-article a button,
+.second-article a button {
+	color: var(--lime-green);
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+	display: flex;
+	gap: 0.8rem;
+	align-items: center;
+}
+
+@media (min-width: 768px) {
+	.home-second-section {
+		top: 96px;
+	}
+
+	.article-container {
+		padding: 0 1.5rem;
+		width: 100%;
+	}
+
+	.first-article,
+	.second-article {
+		align-items: center;
+		text-align: center;
+		text-wrap: balance;
+		line-height: 1.5rem;
+		width: 100%;
+		justify-content: center;
+	}
+
+	.first-article h2,
+	.second-article h2 {
+		font-size: 2rem;
+	}
+
+	.first-article p,
+	.second-article p {
+		text-align: center;
+	}
+}
+
+@media (min-width: 1366px) {
+	.home-second-section {
+		top: 100vh;
+		overflow: hidden;
+		height: 100vh;
+	}
+
+	.line-container {
+		width: 102.5%;
+	}
+
+	.article-container {
+		flex-direction: row;
+		align-items: center;
+		gap: 3rem;
+	}
+
+	.second-article {
+		align-self: center;
+	}
+
+	.first-article,
+	.second-article {
+		padding: 0 5rem;
+		height: 100%;
+	}
+
+	.first-article:hover,
+	.second-article:hover {
+		background-color: var(--emerald-opacity-90);
+	}
+}
+
+@media (min-width: 1920px) {
+	.line-container {
+		width: 100%;
+	}
+}

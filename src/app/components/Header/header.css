@@ -1,0 +1,103 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	background-color: #fefffa90;
+	width: 100%;
+}
+
+.language-menu-container {
+	display: flex;
+	gap: 1rem;
+}
+
+.menu {
+	height: 24px;
+	width: 24px;
+	cursor: pointer;
+	align-self: center;
+}
+
+.menu span,
+.menu span::before,
+.menu span::after {
+	background: var(--dark-green);
+	border-radius: 3px;
+	content: "";
+	position: absolute;
+	width: 24px;
+	height: 2px;
+	margin-top: 8px;
+
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.menu span::before {
+	margin-top: -8px;
+}
+
+.menu span::after {
+	margin-top: 8px;
+}
+
+.menu.active span {
+	background: transparent;
+}
+
+.menu.active span::before {
+	margin-top: 0;
+
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.menu.active span::after {
+	margin-top: 0;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+@media (width >= 768px) {
+	.header {
+		padding: 1.5rem 1.5rem 0 1.5rem;
+	}
+
+	.header a img {
+		margin-bottom: 15px;
+	}
+
+	.language-menu-container {
+		gap: 2rem;
+		align-items: center;
+	}
+
+	.menu {
+		height: 36px;
+		width: 36px;
+	}
+
+	.menu span,
+	.menu span::before,
+	.menu span::after {
+		width: 36px;
+	}
+
+	.menu span::before {
+		margin-top: -10px;
+	}
+
+	.menu span::after {
+		margin-top: 10px;
+	}
+}

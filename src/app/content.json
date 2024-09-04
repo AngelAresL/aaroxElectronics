@@ -1,0 +1,562 @@
+{
+  "EN": {
+    "ConsentCookies": "We use cookies to ensure that we give you the best experience on our website. If you continue without changing your setting, we'll assume that you have accepted the use of cookies on our website. However, you can change your cookie settings at any time in this ",
+    "link": "link",
+    "cookiesAccept": "Continue",
+    "cookiesMore": "Find out more",
+    "ConsentCookies2": "Click 'Continue' to hide this message.",
+    "SideMenu": {
+      "home": "Home",
+      "powerElectronics": "Power Electronics",
+      "embeddedSystems": "Embedded Systems",
+      "cobaltoModules": "Cobalto Modules",
+      "contact": "Contact"
+    },
+    "HomePage": {
+      "title": "Designing today the",
+      "subtitle": "products of tomorrow",
+      "stay": "OUR WORK",
+      "textButton": "Gallery",
+      "secondSection": {
+        "title1": "Power Electronics",
+        "def1": "Designing energy conversion systems",
+        "def2": "that make the planet greener",
+        "textButton1": "Our approach",
+        "title2": "Embedded Systems",
+        "def3": "Because it is not possible to",
+        "def4": "make power without control",
+        "textButton2": "What we can do"
+      },
+      "thirdSection": {
+        "title1": "Automotive",
+        "paragraph1": "With extensive experience, designing highly complex products, like a family of OBC + DCDC for a world TOP5 car manufacturer",
+        "title2": "Industrial",
+        "paragraph2": "Designing many battery chargers and industrial controllers, covering from idea to mass production",
+        "title3": "Marine",
+        "paragraph3": "With the understanding of designing tech for the worst conditions, high mechanical stress and long durability",
+        "title4": "Consumer",
+        "paragraph4": "Experience in designing, manufacturing and certifying products for several domestic appliances",
+        "title5": "Infrastructure",
+        "paragraph5": "Automation, connectivity, big data and artificial intelligence are the cores of our expertise in embedded systems",
+        "title6": "Motor Sports",
+        "paragraph6": "When technical performance, weight, efficiency and robustness are the key for success"
+      }
+    },
+    "EmbeddedSystems": {
+      "scroll": "Scroll",
+      "firstSection": {
+        "title": {
+          "text1": "From",
+          "concept": "concept",
+          "to": "to",
+          "production": "production"
+        },
+        "subtitle": " We can start from a spec or even from a blank sheet, we can",
+        "support": "support",
+        "subtitle2": "you through the whole process.",
+        "application": "Application",
+        "industry": "Industry",
+        "standards": "Standards",
+        "dimensions": "Dimensions",
+        "weight": "Weight",
+        "cost": "Cost",
+        "lifetime": "Lifetime"
+      },
+      "secondSection": {
+        "text1": "Taking",
+        "texthighlighted": "all variables",
+        "text2": "into account from day one"
+      },
+      "thirdSection": {
+        "title": "Step by step",
+        "design": "design",
+        "subtitle": "Power Supply Calculations, Tolerances, Filters, Power Consumption, Thermals, Worst Case Analysis, Battery Life..."
+      },
+      "fourthSection": {
+        "title": "With many components in our",
+        "toolbox": "toolbox",
+        "text1": "PSU ICs, Microcontrollers, Processors, Memories, Transceivers, Passives, EMC Components, Relays, Displays, Connectors...",
+        "tested": "tested",
+        "and": "and",
+        "proven": "proven",
+        "navSchematics": {
+          "diagrams": "Top Diagrams",
+          "variants": "Variants",
+          "netClasses": "Net Classes",
+          "netNaming": "Net Naming",
+          "detailing": "PCB Detailing"
+        },
+        "navComponents": {
+          "layer": "Layer Stack",
+          "signal": "Signal Integrity",
+          "impedance": "Impedance Control",
+          "ddr": "DDR Routing",
+          "antena": "Antenna Design"
+        },
+        "navMechanical": {
+          "dfm": "DFM & DFA",
+          "mechanical": "Mechanical",
+          "modeling": "3D Modelling",
+          "prototyping": "Prototyping",
+          "production": "Production"
+        }
+      },
+      "fifthSection": {
+        "market": {
+          "title": "We know the market.",
+          "text": "With extensive experience writing software in multiple platforms and for different industries, using the main manufacturers."
+        },
+        "sw": {
+          "title": "SW up to the top level.",
+          "text": "We can build custom Kernels, integrate and develop applications, design impressive dashboards and implement FW over-the-air systems."
+        }
+      },
+      "navBar": {
+        "concept": "CONCEPT & SPECIFICATIONS",
+        "architecture": "ARCHITECTURE DESIGN",
+        "calculations": "CALCULATIONS & SIMULATIONS",
+        "component": "COMPONENTS & MECHANICAL",
+        "schematic": "SCHEMATICS & PCB DESIGNS",
+        "marketSW": "FIRMWARE & SOFTWARE"
+      }
+    },
+    "PowerElectronics": {
+      "scroll": "SCROLL",
+      "firstSection": {
+        "power": "Power supplies",
+        "battery": "Battery Chargers",
+        "ev": "EV OBC / DCDCs",
+        "wireless": "Wireless Power",
+        "bms": "Batteries / BMS",
+        "inverters": "PV / Inverters",
+        "controls": "Motor Controls",
+        "lighting": "LED Lighting"
+      },
+      "secondSection": {
+        "text1": "Starting from a",
+        "spec": "specification",
+        "text2": "or even from a",
+        "sheet": "blank sheet"
+      },
+      "thirdSection": {
+        "bucks": {
+          "text": "From small converters",
+          "highlighted": "To complex ZVS topologies"
+        },
+        "projects": {
+          "text": "With many projects",
+          "highlighted": "Validated and tested"
+        },
+        "emc": {
+          "text": "Taking into account",
+          "highlighted": "Cost and EMC from day one"
+        },
+        "sw": {
+          "text": "Including embedded SW",
+          "highlighted": "From drive up to control"
+        }
+      },
+      "fourthSection": {
+        "1": {
+          "title": "Topology Calculations",
+          "text": "We have a proprietary SW to fully calculate and analyse many topologies and power systems. With this, we can easily compare and optimize a design from a very early stage, giving extremely accurate results, including COST."
+        },
+        "2": {
+          "title": "Magnetics Design",
+          "text": "We understand the complexity behind these components, so we get involved to the minimum detail in designing, optimizing, testing and manufacturing the CORE of a power system."
+        },
+        "3": {
+          "title": "Modelling",
+          "text": "We have behavioural models for many components, developed over the years. With these, we can accelerate the development TIME, achieving full working samples in record time."
+        },
+        "4": {
+          "title": "Simulations",
+          "text": "In complex projects or areas, we get supported by simulation SW, to predict behaviour or understand conditions that we cannot reproduced effectively on the LAB."
+        },
+        "5": {
+          "title": "Control",
+          "text": "We understand analog and digital control, being participated even in IC developments in the past. We have in our TOOLBOX, controllers, circuits and libraries for the digital DSPs."
+        }
+      },
+      "fifthSection": {
+        "title": {
+          "text1": "With many power",
+          "components": "components",
+          "text2": "in our",
+          "toolbox": "toolbox"
+        },
+        "subtitle": "Many power devices, analysed, tested and benchmarked in many projects, some of them for very high volumes, where cost and reliability are the key for a competitive product.",
+        "listItems": {
+          "siSiC": "Si & SiC Mosfets",
+          "mosfets": "Mosfets for ZVS",
+          "nonIsolated": "Non-isolated Drivers",
+          "isolated": "Isolated Drivers",
+          "magnetics": "Magnetics up to KW range",
+          "cmcs": "Cost-effective CMCs",
+          "pfc": "PFC Chokes",
+          "flyback": "Flyback Transformers",
+          "llc": "LLC + Lr Transformers",
+          "bidirectional": "Bidirectional Transformers",
+          "psfb": "PSFB Transformers",
+          "resonant": "Resonant Chokes",
+          "costEffec": "Cost-effective Cores",
+          "emc": "EMC Countermeasures",
+          "controllers": "Flyback Controllers",
+          "pfcCont": "PFC Controllers",
+          "pfcyllc": "PFC + LLC Controllers",
+          "llcCont": "LLC Controllers",
+          "psfbcont": "PSFB Controllers",
+          "multiphase": "Multiphase Controllers",
+          "buck": "Buck / Boost / Sepic ICs",
+          "orIng": "OR-ing & SYNC Rectification",
+          "sensors": "Current Sensors",
+          "opAmp": "Op-Amp Circuits",
+          "shortCirc": "Short-circuit protections",
+          "ti": "TI C2000 DSPs & Libraries",
+          "thermal": "Thermal interfaces",
+          "water": "Water cooling techniques"
+        }
+      },
+      "sixthSection": {
+        "schematic": {
+          "title": "SCHEMATIC Drawing",
+          "subtitle": "Including all detailing to move to the next step: current and voltage levels, classes, ground star points, etc."
+        },
+        "pcb": {
+          "title": "PCB / LAYOUT Routing",
+          "subtitle": "With decades of experience routing boards for different industries and different applications. Taking EMC, DFM and DFA into account from day one."
+        },
+        "mechanical": {
+          "title": "MECHANICAL Definition",
+          "subtitle": "Integrating electronics in many materials cases, from simple convectional air cooled to complex water cooling systems, with several interface materials."
+        },
+        "prototype": {
+          "title": "PROTOTYPE Build",
+          "subtitle": "Our design process allow us to achieve representative prototypes in record time. Being able to accelerate market launch to the maximum."
+        },
+        "debugging": {
+          "title": "DEBUGGING Process",
+          "subtitle": "With many techniques developed over the years to debug, anticipate and solve problems that will raise in the validation stage or would occur in the field."
+        },
+        "validation": {
+          "title1": "VALIDATION",
+          "title2": "and",
+          "title3": "EMC",
+          "subtitle": "With experience introducing products in high volume markets, up to several million, where the validation process and EMC must be taken to the extreme, to ensure top quality over the expected lifetime."
+        }
+      }
+    },
+    "Contact": {
+      "firstH1": "If you have a project, we're ready to ",
+      "secondH1": "help you see it through. Let's talk.",
+      "company": "Aarox Electronics",
+      "address1": "San Roque 92, Bajo Derecha",
+      "address2": "36204 Vigo, Pontevedra",
+      "address3": "Spain",
+      "telephone": "(+34) 986 046 486",
+      "inputName": "Name",
+      "inputCompany": "Company",
+      "inputEmail": "Email",
+      "inputPhone": "Phone",
+      "inputMessage": "Message",
+      "button": "Send",
+      "required": "Required field",
+      "captcha": "Validate CAPTCHA",
+      "send": "Sending...",
+      "success": "Message sent"
+    },
+    "Gallery": {
+      "title": "Some of our work"
+    },
+    "Footer": {
+      "policy": "Privacy policy",
+      "cookies": "Cookies",
+      "reserved": "All rights reserved.",
+      "connect": "Stay connected"
+    },
+    "NotFound": {
+      "message": "Oops, something went wrong",
+      "textButton": "Back to Home"
+    }
+  },
+  "ES": {
+    "ConsentCookies": "Utilizamos cookies para asegurarnos de brindarle la mejor experiencia en nuestro sitio web. Si continúa sin cambiar su configuración, asumiremos que ha aceptado el uso de cookies en nuestro sitio web. Sin embargo, puede cambiar la configuración de las cookies en cualquier momento en este ",
+    "link": "enlace",
+    "cookiesAccept": "Continuar",
+    "cookiesMore": "Saber más",
+    "ConsentCookies2": "Haga clic en 'Continuar' para ocultar este mensaje.",
+    "SideMenu": {
+      "home": "Inicio",
+      "powerElectronics": "Electrónica de potencia",
+      "embeddedSystems": "Sistemas embebidos",
+      "cobaltoModules": "Cobalto Modules",
+      "contact": "Contacto"
+    },
+    "HomePage": {
+      "title": "Diseñando hoy los",
+      "subtitle": "productos del mañana",
+      "stay": "NUESTRO TRABAJO",
+      "textButton": "Galería",
+      "secondSection": {
+        "title1": "Electrónica de potencia",
+        "def1": "Diseñando sistemas de conversión de energía",
+        "def2": "que hacen al planeta más verde",
+        "textButton1": "Nuestro enfoque",
+        "title2": "Sistemas Embebidos",
+        "def3": "Porque no es posible",
+        "def4": "generar energía sin control",
+        "textButton2": "Qué podemos hacer"
+      },
+      "thirdSection": {
+        "title1": "Automoción",
+        "paragraph1": "Con amplia experiencia, diseñando productos altamente complejos, como una familia de OBC + DCDC para un fabricante de coches TOP5 mundial",
+        "title2": "Industrial",
+        "paragraph2": "Con multitud de diseños de cargadores de baterías y controladores industriales, cubriendo desde la idea hasta la producción",
+        "title3": "Marina",
+        "paragraph3": "Con el conocimiento de diseñar tecnología para las peores condiciones, alto estrés mecánico y larga durabilidad",
+        "title4": "Consumidor",
+        "paragraph4": "Experiencia en el diseño, fabricación y certificación de productos para varios equipos domésticos",
+        "title5": "Infraestructura",
+        "paragraph5": "Automatización, conectividad, big data e inteligencia artificial son los núcleos de nuestros sistemas embebidos",
+        "title6": "Deportes de Motor",
+        "paragraph6": "Cuando el rendimiento técnico, la eficiencia, el peso y la robustez son la clave del éxito"
+      }
+    },
+    "EmbeddedSystems": {
+      "scroll": "Desliza",
+      "firstSection": {
+        "title": {
+          "text1": "Del",
+          "concept": "concepto",
+          "to": "a",
+          "production": "producción"
+        },
+        "subtitle": "Podemos empezar desde una especificación o incluso desde una hoja en blanco, podemos",
+        "support": "ayudarte",
+        "subtitle2": "a través de todo el proceso.",
+        "application": "Aplicación",
+        "industry": "Industria",
+        "standards": "Estándares",
+        "dimensions": "Dimensiones",
+        "weight": "Peso",
+        "cost": "Coste",
+        "lifetime": "Durabilidad"
+      },
+      "secondSection": {
+        "text1": "Teniendo en cuenta",
+        "texthighlighted": "todas las variables",
+        "text2": "desde el día 1"
+      },
+      "thirdSection": {
+        "title": "Diseñado",
+        "design": "paso a paso",
+        "subtitle": "Cálculos de fuentes de potencia, tolerancias, filtros, consumos de energía, térmicos, análisis del peor de los casos, duración de batería..."
+      },
+      "fourthSection": {
+        "title": "Multitud de componentes en nuestra",
+        "toolbox": "caja de herramientas",
+        "text1": "ICs de PSUs, Microcontroladores, Procesadores, Memorias, Transceptores, Pasivos, Componentes EMC, Relés, Pantallas, Conectores...",
+        "tested": "probados",
+        "and": "y",
+        "proven": "validados",
+        "navSchematics": {
+          "diagrams": "Diagramas Superiores",
+          "variants": "Variantes",
+          "netClasses": "Clases de Línea",
+          "netNaming": "Nombres de Líneas",
+          "detailing": "Detalle de PCB"
+        },
+        "navComponents": {
+          "layer": "Diseño de Capas",
+          "signal": "Integridad de Señal",
+          "impedance": "Control de Impedancia",
+          "ddr": "Enrutamiento DDR",
+          "antena": "Diseño de Antenas"
+        },
+        "navMechanical": {
+          "dfm": "DFM y DFA",
+          "mechanical": "Diseño Mecánico",
+          "modeling": "Modelado 3D",
+          "prototyping": "Prototipado",
+          "production": "Producción"
+        }
+      },
+      "fifthSection": {
+        "market": {
+          "title": "Conocemos el mercado",
+          "text": "Con amplia experiencia desarrollando software en múltiples plataformas y para diferentes industrias, utilizando los principales fabricantes."
+        },
+        "sw": {
+          "title": "SW hasta el nivel superior",
+          "text": "Podemos crear Kernels personalizados, integrar y desarrollar aplicaciones, diseñar paneles de control impresionantes e implementar sistemas de FW over-the-air."
+        }
+      },
+      "navBar": {
+        "concept": "CONCEPTO Y ESPECIFICACIONES",
+        "architecture": "DISEÑO DE ARQUITECTURA",
+        "calculations": "CÁLCULOS Y SIMULACIONES",
+        "component": "COMPONENTES Y MECÁNICA",
+        "schematic": "ESQUEMAS Y DISEÑOS DE PCB",
+        "marketSW": "FIRMWARE Y SOFTWARE"
+      }
+    },
+    "PowerElectronics": {
+      "scroll": "DESLIZA",
+      "firstSection": {
+        "power": "Fuentes PSUs",
+        "battery": "Cargadores",
+        "ev": "EV OBC / DCDCs",
+        "wireless": "Energía inalámbrica",
+        "bms": "Baterías / BMS",
+        "inverters": "PV / Inversores",
+        "controls": "Control de Motores",
+        "lighting": "Iluminación LED"
+      },
+      "secondSection": {
+        "text1": "A partir de una",
+        "spec": "especificación",
+        "text2": "o incluso de una",
+        "sheet": "hoja en blanco"
+      },
+      "thirdSection": {
+        "bucks": {
+          "text": "Desde circuitos sencillos",
+          "highlighted": "Hasta topologías ZVS complejas"
+        },
+        "projects": {
+          "text": "Con muchos proyectos",
+          "highlighted": "Probados y validados"
+        },
+        "emc": {
+          "text": "Teniendo en cuenta el",
+          "highlighted": "Coste y EMC desde el primer día"
+        },
+        "sw": {
+          "text": "Incluyendo SW embebido",
+          "highlighted": "Desde el disparo hasta el control"
+        }
+      },
+      "fourthSection": {
+        "1": {
+          "title": "Cálculos de topología",
+          "text": "Contamos con un SW propio para calcular y analizar por completo muchas topologías y sistemas de potencia. Podemos comparar y optimizar fácilmente un diseño desde una etapa muy temprana, brindando resultados extremadamente precisos, incluido el COSTE."
+        },
+        "2": {
+          "title": "Diseño de magnéticos",
+          "text": "Entendemos perfectamente la complejidad de estos componentes, por lo que nos involucramos hasta el mínimo detalle en el diseño, la optimización, las pruebas y la fabricación del NÚCLEO de un sistema de potencia."
+        },
+        "3": {
+          "title": "Modelado",
+          "text": "Disponemos de modelos de comportamiento para numerosos componentes, desarrollados a lo largo de los años. Con ellos, podemos acelerar el TIEMPO de desarrollo, logrando prototipos completos en tiempo récord."
+        },
+        "4": {
+          "title": "Simulaciones",
+          "text": "En proyectos o áreas complejas, nos ayudamos de SW de simulación para predecir comportamientos o entender condiciones que no podemos reproducir de manera efectiva en el LABORATORIO."
+        },
+        "5": {
+          "title": "Control",
+          "text": "Desarrollamos control analógico y digital, participando en el desarrollo de ICs en el pasado. Disponemos en nuestra CAJA DE HERRAMIENTAS de controladores, circuitos y librerías para DSPs digitales."
+        }
+      },
+      "fifthSection": {
+        "title": {
+          "text1": "Con multitud de",
+          "components": "componentes",
+          "text2": "en nuestra",
+          "toolbox": "caja de herramientas"
+        },
+        "subtitle": "Multitud de componentes de potencia, analizados, probados y comparados en muchos proyectos, algunos de ellos para muy altos volúmenes, donde el coste y la fiabilidad son la clave de un producto competitivo.",
+        "listItems": {
+          "siSiC": "Mosfets Si y SiC",
+          "mosfets": "Mosfets para ZVS",
+          "nonIsolated": "Drivers No-aislados",
+          "isolated": "Drivers aislados",
+          "magnetics": "Magnéticos hasta varios KW",
+          "cmcs": "CMCs de bajo coste",
+          "pfc": "Inductores para PFC",
+          "flyback": "Transformadores para Flyback",
+          "llc": "Transformadores LLC + Lr",
+          "bidirectional": "Transformadores Bidireccionales",
+          "psfb": "Transformadores para PSFB",
+          "resonant": "Inductores Resonantes",
+          "costEffec": "Núcleos de bajo coste",
+          "emc": "Soluciones para EMC",
+          "controllers": "Controladores Flyback",
+          "pfcCont": "Controladores PFC",
+          "pfcyllc": "Controladores PFC + LLC",
+          "llcCont": "Controladores LLC",
+          "psfbcont": "Controladores PSFB",
+          "multiphase": "Controladores Multifase",
+          "buck": "ICs para Buck / Boost / Sepic",
+          "orIng": "OR-ing y Rectificación SYNC",
+          "sensors": "Sensores de Corriente",
+          "opAmp": "Circuitos con Op-Amps",
+          "shortCirc": "Protecciones para Cortocircuito",
+          "ti": "DSPs TI C2000 y Librerías",
+          "thermal": "Interfaces Térmicos",
+          "water": "Técnicas para Water cooling"
+        }
+      },
+      "sixthSection": {
+        "schematic": {
+          "title": "Diseño de ESQUEMÁTICOS",
+          "subtitle": "Incluyendo todos los detalles para pasar al siguiente paso: niveles de corriente y tensión, clases, puntos de masa en estrella, etc."
+        },
+        "pcb": {
+          "title": "Enrutado de PCB",
+          "subtitle": "Con décadas de experiencia en el enrutamiento de placas para diferentes industrias y diferentes aplicaciones. Teniendo en cuenta EMC, DFM y DFA desde el primer día."
+        },
+        "mechanical": {
+          "title": "Definición MECÁNICA",
+          "subtitle": "Integración de electrónica en muchos tipos de materiales, desde simples sistemas de refrigeración por convección de aire hasta complejos sistemas de refrigeración líquida, con varios materiales de interfaz."
+        },
+        "prototype": {
+          "title": "Construcción de PROTOTIPO",
+          "subtitle": "Nuestro proceso de diseño nos permite conseguir prototipos representativos en tiempo récord, pudiendo acelerar al máximo el lanzamiento al mercado."
+        },
+        "debugging": {
+          "title": "Proceso de DEPURADO",
+          "subtitle": "Con multitud de técnicas desarrolladas a lo largo de los años para depurar, anticipar y resolver problemas que surgirán en la etapa de validación o que ocurrirían en campo."
+        },
+        "validation": {
+          "title1": "VALIDACIÓN",
+          "title2": "y",
+          "title3": "EMC",
+          "subtitle": "Con experiencia en la introducción de productos en mercados de gran volumen, hasta varios millones, donde el proceso de validación y EMC debe llevarse al extremo, para garantizar máxima calidad durante la vida útil esperada."
+        }
+      }
+    },
+    "Contact": {
+      "firstH1": "Si tienes un proyecto, estamos preparados",
+      "secondH1": "para ayudarte a llevarlo a cabo. Hablemos.",
+      "company": "Aarox Electronics",
+      "address1": "San Roque 92, Bajo Derecha",
+      "address2": "36204 Vigo, Pontevedra",
+      "address3": "España",
+      "telephone": "986 046 486",
+      "inputName": "Nombre",
+      "inputCompany": "Empresa",
+      "inputEmail": "Email",
+      "inputPhone": "Teléfono",
+      "inputMessage": "Mensaje",
+      "button": "Enviar",
+      "required": "Campo requerido",
+      "captcha": "Validar CAPTCHA",
+      "send": "Enviando...",
+      "success": "Mensaje enviado"
+    },
+    "Gallery": {
+      "title": "Algo de nuestro trabajo"
+    },
+    "Footer": {
+      "policy": "Política de privacidad",
+      "cookies": "Política de cookies",
+      "reserved": "Todos los derechos reservados.",
+      "connect": "Conecta"
+    },
+    "NotFound": {
+      "message": "Vaya, algo ha salido mal",
+      "textButton": "Volver al inicio"
+    }
+  }
+}

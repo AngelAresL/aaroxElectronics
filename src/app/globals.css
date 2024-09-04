@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--background: #fefffa;
+	--black: #232323;
+	--gray: #f7f7f7;
+	--dark-green: #1c3e35;
+	--forest-green: #1e5a38;
+	--lime-green: #cafb4b;
+	--emerald-green: #2dac44;
+	--chartreuse-green: #7ebb09;
+	--emerald-opacity-90: #2dac4490;
+	--background-3dsection: #688d78;
+	--background-power: #edfff5;
+	--circles: #2bb06599;
+	--cobalto-modules: #626EE3;
+}
+
+html {
+	scrollbar-width: none;
+}
+
+body {
+	background: var(--background);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	-ms-overflow-style: none;
+	overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+main {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+a {
+	text-decoration: none;
+	width: fit-content;
+}

@@ -1,0 +1,89 @@
+.check-language {
+	margin-top: 4px;
+}
+
+.check-language .toggle {
+	display: none;
+}
+
+.check-language .toggle + .toggle-btn {
+	border: 1px solid var(--dark-green);
+	display: block;
+	width: 57px;
+	height: 27px;
+	position: relative;
+	cursor: pointer;
+	user-select: none;
+	font-size: 12px;
+	font-weight: 400;
+	color: var(--dark-green);
+}
+
+.check-language .toggle + .toggle-btn:after,
+.check-language .toggle + .toggle-btn:before {
+	position: relative;
+	display: block;
+	content: "";
+	width: 44%;
+	height: 100%;
+}
+
+.check-language .toggle + .toggle-btn:after {
+	left: 0;
+}
+
+.check-language .toggle + .toggle-btn:before {
+	display: inline;
+	position: absolute;
+	top: 5px;
+}
+
+.check-language .toggle:checked + .toggle-btn:after {
+	left: 56.5%;
+}
+
+.check-language .toggle + .toggle-btn {
+	background: #fefffa90;
+	border-radius: 20rem;
+	padding: 2px;
+	transition: all 0.4s ease;
+}
+
+.check-language .toggle + .toggle-btn:after {
+	border-radius: 2em;
+	background: var(--dark-green);
+	transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+		padding 0.3s ease, margin 0.3s ease;
+}
+
+.check-language .toggle + .toggle-btn:before {
+	content: "ES";
+	left: 32px;
+	color: var(--dark-green);
+	transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.check-language .toggle + .toggle-btn:active:after {
+	padding-right: 0.4em;
+}
+
+.check-language .toggle:checked + .toggle-btn {
+	background: #fefffa90;
+}
+
+.check-language .toggle:checked + .toggle-btn:active:after {
+	margin-left: -0.4em;
+}
+
+.check-language .toggle:checked + .toggle-btn:before {
+	content: "EN";
+	left: 8px;
+	color: var(--dark-green);
+}
+
+@media (width >= 768px) {
+	.check-language {
+		margin-top: 2px;
+		margin-bottom: 21px;
+	}
+}

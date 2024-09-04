@@ -1,0 +1,92 @@
+{
+  "EN":{
+    "title": "Privacy Policy",
+    "subtitle": "Bacause we have to have it",
+    "firstParagraph": "This Privacy Policy applies when using the website “aaroxelectronics.es”, owned by Aarox Electronics, S.L.(hereinafter the Controller), and when using the means of contact published on the website (phone, post and email).",
+    "secondParagraph": "The Controller processes the data in a lawful, fair and transparent manner. It processes only the data that are adequate, relevant and limited to what is necessary in relation to the specified, explicit and legitimate purposes for which it collects them, and it does not process them for purposes that are incompatible with the former.",
+    "thirdParagraph": "This Policy is permanently accessible through the link provided on the website, named “Privacy Policy”, and may be updated at any time, either due to a regulatory change or due to modifications to the website configuration.",
+    "controller": {
+      "title": "Who is the data controller?",
+      "who": "Aarox Electronics, S.L.",
+      "address": "Postal address: C/ San Roque 92, Bajo Derecha - 36204 Vigo (Pontevedra) - Spain",
+      "phone": "Phone: +34 986 046 486",
+      "email": "Email: aarox@aaroxelectronics.es"
+    },
+    "purpose": {
+      "title": "What is the purpose and legitimacy of the data processing?",
+      "firstParagraph": "In order to browse the website “aaroxelectronics.es” it is not necessary to provide any data. An asterisk (*) placed next to a question or form field indicates that it is compulsory to answer the question or provide the requested data. Should the requested data not be provided, it will not be possible to render the service or the functionality requested.",
+      "listTitle": "The Controller processes the registered information according to the following purposes:",
+      "list": {
+        "first": "Contact: the data submitted through the website contact form, or through any of the means and/or channels of contact provided on the site, are used with the purpose of handling the requests or incidents received. The legitimising bases for the data processing are the data subject’s consent and the legitimate interest of Aarox Electronics, S.L. to comply with and manage the requests received.",
+        "second": "Exercise of rights: the data provided are used with the purpose of responding and attending to the data subjects that exercise their rights pursuant to data protection regulations. The legitimising base for the processing is the compliance with a legal obligation.",
+        "third": "Notifications regarding data protection: the data provided are used with the purpose of handling security-related incidents according to data protection regulations. The legitimising base for the processing is the compliance with a legal obligation." 
+      },
+      "secondParagraph": "Aarox Electronics, S.L. will only process personal data according to the purposes described in this Policy. The data subjects are informed of the processing of their data under the terms set above through the acceptance of this Privacy Policy under the corresponding sections of the forms provided on the website.",
+      "thirdParagraph": "The data provided and collected will be processed solely and exclusively for the time strictly necessary and for the purposes for which they have been collected from time to time, as well as for the determination of the liabilities that may arise from the purposes of the processing. Aarox Electronics, S.L. has laid down different storage periods depending on the data type and the purpose applicable to their processing. Data processed on the basis of the data subject’s consent will be stored until the data subject withdraws his or her consent, unless they must be kept locked for the establishment, exercise or defence of legal claims or in compliance with a legal obligation.",
+      "fourthParagraph": "The persons who use the means of contact identified on the website are the only individuals responsible for the information they provide to Aarox Electronics, S.L., and must refrain from providing personal data concerning other people, unless they have the necessary authorization, according to which such people will have been previously and duly informed of the contents of this Privacy Policy and, specifically, they consent to their data being provided to Aarox Electronics, S.L. for their processing in accordance with the corresponding purposes.",
+      "fifthParagraph": "The use of the website or the means of contact provided therein by persons under the age of fourteen is not authorised."
+    },
+    "disclosed": {
+      "title": "To what recipients will the data be disclosed?",
+      "firstParagraph": "Aarox Electronics, S.L. does not disclose personal data to third parties, unless when required by law or with the data subject’s express consent. The Controller may disclose personal data to the competent authorities: tax and customs, legal, and law enforcement agencies, as well as other recipients applicable under the regulations in force.",
+      "secondParagraph": "The data submitted through the website forms are stored in the facilities of Aarox Electronics, S.L.’s service provider located within the territory of the European Union, Raiola Networks, S.L.",
+      "thirdParagraph": "In the event that a user interacts in a social capacity with the website cobaltomodules.com or on the social media where the latter is present, such user must keep in mind that his or her data will be published within the environment where he or she operates, that is, the user will be expressly authorising the disclosure of their data —associated to the action they perform— to the rest of the users that access the website or the social media."
+    },
+    "rights": {
+      "title": "What are you rights over your data?",
+      "firstParagraph": "Any person is entitled to obtain confirmation regarding whether Aarox Electronics, S.L. is processing or not personal data concerning him or her, to access his or her personal data, and to request the rectification of inaccurate data or the completion of incomplete data.",
+      "secondParagraph": "Moreover, he or she is entitled to request the erasure of his or her data when, among other reasons, the data are no longer necessary for the purposes for which they were collected. Aarox Electronics, S.L. will erase such data without delay, unless their storage is necessary in order to comply with a legal obligation, or for the establishment, exercise or defence of legal claims.",
+      "thirdParagraph": "In certain circumstances, the data subjects may request the restriction of processing for their data, in which case the data will be locked and their processing will only be possible for the establishment, exercise or defence of legal claims.",
+      "fourthParagraph": "Likewise, in certain circumstances, the data subjects are entitled to receive the personal data they have provided to Aarox Electronics, S.L. in a structured, commonly used, machine-readable and interoperable format.",
+      "fifthParagraph": "In certain circumstances and for reasons based on the specific situation of the data subject, he or she may object to the processing of his or her data, and Aarox Electronics, S.L. will stop processing them, unless there are compelling legitimate grounds to keep doing so, or for the establishment, exercise or defence of legal claims.",
+      "sixthParagraph": "All these rights may be exercised at any time by mailing a request to Aarox Electronics, S.L., to the following address: C/ San Roque 92, Bajo Derecha - 36204 Vigo (Pontevedra) - Spain; or by sending an email to aarox@aaroxelectronics.es.",
+      "seventhParagraph": "If the data subject has been asked for his or her consent to process the data, such consent may be withdrawn at any time by following the communication procedure described in the previous paragraph. In no case will this withdrawal be retroactive.",
+      "eighthParagraph": "If the data subject believes that the exercise of his or her rights has not been satisfied, he or she may lodge a complaint with the Spanish Data Protection Agency —the supervisory authority regarding data protection— whose contact details are as follows: calle Jorge Juan, 6 - 28001 Madrid."
+    }
+  },
+  "ES": {
+    "title": "Política de privacidad",
+    "subtitle": "Porque tenemos que tenerla",
+    "firstParagraph": "Esta Política de Privacidad se aplica cuando se utiliza el sitio web «aaroxelectronics.es», titularidad de Aarox Electronics, S.L.(en adelante, la Responsable), y cuando se utilizan los medios de contacto publicados en el sitio web (teléfono, correo postal y correo electrónico).",
+    "secondParagraph": "La Responsable trata los datos de forma lícita, leal y transparente. Únicamente trata aquellos datos que son adecuados, pertinentes y limitados a lo necesario en relación con los fines determinados, explícitos y legítimos para los que los obtiene, y no los trata para fines incompatibles con aquellos.",
+    "thirdParagraph": "Esta Política es permanentemente accesible a través del enlace habilitado en el sitio web, denominado “Política de Privacidad”, y puede actualizarse en cualquier momento, bien como consecuencia de un cambio normativo o bien por modificarse la configuración del sitio web.",
+    "controller": {
+      "title": "Who is the data controller?",
+      "who": "Aarox Electronics, S.L.",
+      "address": "Dirección postal: C/ San Roque 92, Bajo Derecha - 36204 Vigo (Pontevedra) - España",
+      "phone": "Teléfono: +34 986 046 486",
+      "email": "Correo electrónico: aarox@aaroxelectronics.es"
+    },
+    "purpose": {
+      "title": "¿Con qué finalidad y ligitimación trata los datos?",
+      "firstParagraph": "Para navegar por el sitio web «aaroxelectronics.es» no es necesario aportar ningún dato. El carácter obligatorio de la respuesta a las preguntas que se planteen, o de los datos que se solicitan a través del sitio web, se indica mediante la incorporación de un asterisco (*) a continuación de la pregunta o campo del formulario. En caso de no proporcionarse los datos requeridos no será posible prestar el servicio o funcionalidad solicitados.",
+      "listTitle": "La Responsable trata la información registrada de conformidad con las siguientes finalidades:",
+      "list": {
+        "first": "Contacto: los datos remitidos a través del formulario de contacto del sitio web, o a través de cualquiera de los medios y/o canales de contacto facilitados en la web, se utilizan con la finalidad de gestionar las solicitudes o incidencias recibidas. Las bases legitimadoras del tratamiento son el consentimiento de la persona interesada y el interés legítimo de Aarox Electronics, S.L. en atender y gestionar las peticiones recibidas.",
+        "second": "Ejercicio de derechos: los datos proporcionados se utilizan con la finalidad de atender y dar respuesta a las personas interesadas que ejerciten sus derechos conforme a la normativa sobre protección de datos. La base legitimadora del tratamiento es el cumplimiento de una obligación legal.",
+        "third": "Notificaciones sobre protección de datos: los datos proporcionados se utilizan con la finalidad de gestionar los incidentes y notificaciones relacionados con la seguridad de conformidad con la normativa sobre protección de datos. La base legitimadora del tratamiento es el cumplimiento de una obligación legal." 
+      },
+      "secondParagraph": "Aarox Electronics, S.L. únicamente tratará datos personales de conformidad con las finalidades descritas en esta Política. Las personas interesadas son informadas del tratamiento de sus datos en los términos anteriormente indicados mediante la aceptación de la presente Política de Privacidad en los apartados correspondientes de los formularios previstos en el sitio web.",
+      "thirdParagraph": "Los datos proporcionados y recogidos serán tratados única y exclusivamente durante el tiempo necesario y para las finalidades para las que se hayan recabado en cada momento, así como para determinar las posibles responsabilidades que se pudieran derivar de las finalidades del tratamiento. Aarox Electronics, S.L. ha establecido diferentes plazos de conservación en función del tipo de datos y la finalidad aplicable a su tratamiento. Los datos tratados con base en el consentimiento de la persona interesada serán conservados hasta que ésta revoque su consentimiento, salvo que deban conservarse bloqueados para la formulación, el ejercicio o la defensa de reclamaciones o en cumplimiento de una obligación legal.",
+      "fourthParagraph": "Las personas que utilicen los medios de contacto identificados en el sitio web son las únicas responsables de la información que proporcionen a Aarox Electronics, S.L., y deben abstenerse de proporcionar datos de carácter personal de otras personas, salvo que dispongan de la pertinente autorización, según la cual dichas personas habrán sido previa y debidamente informadas sobre el contenido de la presente Política de Privacidad y, en concreto, que consienten que sus datos sean facilitados a Aarox Electronics, S.L. para ser tratados conforme a las finalidades que correspondan.",
+      "fifthParagraph": "No se autoriza la utilización del sitio web ni de los medios de contacto previstos en el mismo a menores de catorce años."
+    },
+    "disclosed": {
+      "title": "¿A qué destinatarios se comunicarán los datos?",
+      "firstParagraph": "Aarox Electronics, S.L. no comunica datos de carácter personal a terceros, salvo que una norma con rango de ley disponga lo contrario o medie consentimiento expreso del interesado. La Responsable podrá comunicar datos personales a las autoridades competentes: fiscales y aduaneras, judiciales, fuerzas y cuerpos de seguridad del Estado, y cualquier otro destinatario que en función de la normativa vigente resulte de aplicación.",
+      "secondParagraph": "Los datos enviados a través de los formularios del sitio web se almacenan en las instalaciones del proveedor de servicios de Aarox Electronics, S.L. ubicado dentro del territorio de la Unión Europea, Raiola Networks, S.L.",
+      "thirdParagraph": "En el caso de que un usuario interaccione socialmente con el sitio web cobaltomodules.com o en las redes sociales en las que ésta está presente, debe tener presente que sus datos serán publicados en el entorno en el que actúe, es decir, estará autorizando expresamente la comunicación de sus datos -asociados a la acción que realiza- al resto de usuarios que acceden al sitio web o red social."
+    },
+    "rights": {
+      "title": "¿Cuáles son tus derechos en relación a tus datos?",
+      "firstParagraph": "Cualquier persona tiene derecho a obtener confirmación de si Aarox Electronics, S.L. está tratando o no datos personales que le conciernan, a acceder a sus datos personales, y a solicitar la rectificación de los datos inexactos o completar los datos incompletos.",
+      "secondParagraph": "Asimismo, tiene derecho a solicitar la supresión de sus datos cuando, entre otros motivos, los datos ya no sean necesarios para los fines que fueron recogidos. Aarox Electronics, S.L. procederá a la supresión de los mismos sin dilación salvo que sea necesario conservarlos en cumplimiento de una obligación legal, o para la formulación, el ejercicio o la defensa de reclamaciones.",
+      "thirdParagraph": "En determinadas circunstancias, las personas interesadas podrán solicitar la limitación del tratamiento de tus datos, en cuyo caso se procederá a su bloqueo y solo podrán ser tratados para la formulación, el ejercicio o la defensa de reclamaciones.",
+      "fourthParagraph": "Del mismo modo, las personas interesadas tienen derecho, en determinadas circunstancias, a recibir los datos personales que haya proporcionado a Aarox Electronics, S.L., en un formato estructurado de uso común y lectura mecánica.",
+      "fifthParagraph": "En determinadas circunstancias y por motivos basados en la situación particular de la persona interesada, ésta podrá oponerse al tratamiento de sus datos y Aarox Electronics, S.L. dejará de tratarlos, salvo por motivos legítimos imperiosos, o para la formulación, el ejercicio o la defensa de reclamaciones.",
+      "sixthParagraph": "Todos estos derechos pueden ejercitarse, en cualquier momento solicitándolo por correo postal dirigido a la Aarox Electronics, S.L., en la siguiente dirección: C/ San Roque 92, Bajo Derecha - 36204 Vigo (Pontevedra) - España; o bien, enviando un correo electrónico a aarox@aaroxelectronics.es.",
+      "seventhParagraph": "En el caso que se haya solicitado el consentimiento de la persona interesada para tratar los datos, puede revocarse el mismo en cualquier momento comunicándolo en los términos descritos en el párrafo anterior. Esta revocación en ningún caso tendrá carácter retroactivo.",
+      "eighthParagraph": "Si la persona interesada considera que no ha obtenido satisfacción en el ejercicio de sus derechos, puede presentar una reclamación ante la Agencia Española de Protección de Datos, autoridad de control competente en materia de protección de datos, cuyos datos de contacto son: calle Jorge Juan, 6 - 28001 Madrid."
+    }
+  }
+}

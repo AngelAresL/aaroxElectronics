@@ -1,0 +1,95 @@
+.embedded-fourthSection {
+	width: 100%;
+	height: 1000vh;
+	position: relative;
+	color: var(--background);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: var(--background-3dsection);
+}
+
+.embedded-fourthSection .fourthSection-title {
+	position: absolute;
+	z-index: 1;
+	font-size: 2.5rem;
+	top: 5rem;
+}
+
+.embedded-fourthSection .fourthSection-subtitle {
+	position: absolute;
+	z-index: 1;
+	top: 18rem;
+	padding: 0 1rem;
+}
+
+.embedded-fourthSection .fourthSection-title span {
+	color: var(--lime-green);
+	font-size: 2.5rem;
+}
+
+.embedded-fourthSection .fourthSection-subtitle {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.embedded-fourthSection .fourthSection-subtitle span {
+	color: var(--lime-green);
+}
+
+.embedded-fourthSection .fourthSection-subtitle p {
+	display: contents;
+}
+
+.container-pcb3d {
+	width: 100vw;
+	height: 100vh;
+	position: sticky;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 0;
+	transition: transform 0.5s ease-out, border-radius 0.5s ease-out;
+}
+
+.container-pcb3d canvas {
+	width: 100vw;
+	height: 100vh;
+}
+
+@media (min-width: 768px) {
+	.embedded-fourthSection .fourthSection-title {
+		top: 13rem;
+		max-width: 540px;
+	}
+
+	.embedded-fourthSection .fourthSection-subtitle {
+		padding: 4rem 1.5rem;
+		top: 20rem;
+	}
+}
+
+@media (min-width: 1366px) {
+	.embedded-fourthSection .fourthSection-title {
+		text-wrap: balance;
+		top: 9rem;
+		font-size: 3.5rem;
+		max-width: 860px;
+	}
+
+	.embedded-fourthSection .fourthSection-title span {
+		font-size: 3.5rem;
+	}
+
+	.embedded-fourthSection .fourthSection-subtitle {
+		line-height: 1.5;
+		top: 20rem;
+		max-width: 800px;
+		padding: 0;
+	}
+
+	.container-pcb3d {
+		background-position: initial;
+	}
+}
