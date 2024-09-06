@@ -44,6 +44,9 @@ export default function SideMenu() {
             <Link href={'/embedded-systems'} onClick={handleClose}>
               <li>{content[language].SideMenu.embeddedSystems}</li>
             </Link>
+            <Link href={'/gallery'} onClick={handleClose}>
+              <li>{content[language].SideMenu.gallery}</li>
+            </Link>
             <Link href={'https://www.cobaltomodules.com/'} onClick={handleClose}>
               <li className='cobaltoModules'>{content[language].SideMenu.cobaltoModules}</li>
             </Link>

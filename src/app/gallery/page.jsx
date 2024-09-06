@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useLanguageStore } from "../stores/languageStore";
 import content from "../content.json";
 import "./gallery.css";
@@ -8,8 +8,21 @@ import "./gallery.css";
 export default function Gallery() {
   const language = useLanguageStore((state) => state.language);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
-  const touchStartX = useRef(0); 
-  const touchEndX = useRef(0); 
+  const touchStartX = useRef(0);
+  const touchEndX = useRef(0);
+
+  useEffect(() => {
+    if (selectedImageIndex !== null) {
+      document.body.style.overflow = "hidden"; 
+    } else {
+      document.body.style.overflow = "auto"; 
+    }
+
+    
+    return () => {
+      document.body.style.overflow = "auto"; 
+    };
+  }, [selectedImageIndex]);
 
   const images = [
     {
@@ -44,35 +57,30 @@ export default function Gallery() {
     setSelectedImageIndex(null);
   };
 
-  
   const goToNextImage = () => {
     setSelectedImageIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
- 
   const goToPreviousImage = () => {
     setSelectedImageIndex((prevIndex) =>
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
 
- 
   const handleTouchStart = (e) => {
-    touchStartX.current = e.touches[0].clientX; 
+    touchStartX.current = e.touches[0].clientX;
   };
 
   const handleTouchMove = (e) => {
-    touchEndX.current = e.touches[0].clientX; 
+    touchEndX.current = e.touches[0].clientX;
   };
 
   const handleTouchEnd = () => {
     if (touchStartX.current - touchEndX.current > 50) {
-      
       goToNextImage();
     }
 
     if (touchEndX.current - touchStartX.current > 50) {
-     
       goToPreviousImage();
     }
   };
@@ -80,7 +88,11 @@ export default function Gallery() {
   return (
     <main className="gallery-main">
       <h1 className="gallery-title">{content[language].Gallery.title}</h1>
-      <div className={`bento-grid ${selectedImageIndex !== null ? "blur-background" : ""}`}>
+      <div
+        className={`bento-grid ${
+          selectedImageIndex !== null ? "blur-background" : ""
+        }`}
+      >
         {images.map((image, index) => (
           <div
             key={index}
@@ -104,7 +116,7 @@ export default function Gallery() {
 
       {selectedImageIndex !== null && (
         <div
-          className="overlay"
+          className="gallery-overlay"
           onClick={closeExpandedImage}
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
@@ -129,11 +141,10 @@ export default function Gallery() {
               <p>First evolution of what now is Cobalto Modules.</p>
             </div>
 
-            
             <button
               className="prev-arrow"
               onClick={(e) => {
-                e.stopPropagation(); 
+                e.stopPropagation();
                 goToPreviousImage();
               }}
             >
@@ -143,7 +154,7 @@ export default function Gallery() {
             <button
               className="next-arrow"
               onClick={(e) => {
-                e.stopPropagation(); 
+                e.stopPropagation();
                 goToNextImage();
               }}
             >

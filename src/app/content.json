@@ -9,6 +9,7 @@
       "home": "Home",
       "powerElectronics": "Power Electronics",
       "embeddedSystems": "Embedded Systems",
+      "gallery": "Gallery",
       "cobaltoModules": "Cobalto Modules",
       "contact": "Contact"
     },
@@ -289,6 +290,7 @@
       "home": "Inicio",
       "powerElectronics": "Electrónica de potencia",
       "embeddedSystems": "Sistemas embebidos",
+      "gallery": "Galería",
       "cobaltoModules": "Cobalto Modules",
       "contact": "Contacto"
     },
