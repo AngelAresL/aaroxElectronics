@@ -13,14 +13,13 @@ export default function Gallery() {
 
   useEffect(() => {
     if (selectedImageIndex !== null) {
-      document.body.style.overflow = "hidden"; 
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "auto"; 
+      document.body.style.overflow = "auto";
     }
 
-    
     return () => {
-      document.body.style.overflow = "auto"; 
+      document.body.style.overflow = "auto";
     };
   }, [selectedImageIndex]);
 
@@ -31,8 +30,8 @@ export default function Gallery() {
       className: "small",
     },
     {
-      src: "/gallery/02_Small.webp",
-      alt: "02 Small Image",
+      src: "/gallery/01_Small.webp",
+      alt: "01 Multi-I/O PLC",
       className: "small",
     },
     {
@@ -45,6 +44,16 @@ export default function Gallery() {
     {
       src: "/gallery/06_Small.webp",
       alt: "06 Small Image",
+      className: "small",
+    },
+    {
+      src: "/gallery/03_Large.webp",
+      alt: "03 Large Image",
+      className: "large",
+    },
+    {
+      src: "/gallery/01_Small.webp",
+      alt: "01 Multi-I/O PLC",
       className: "small",
     },
   ];
@@ -127,7 +136,9 @@ export default function Gallery() {
               <Image
                 src={images[selectedImageIndex].src}
                 alt={images[selectedImageIndex].alt}
-                fill
+                layout="intrinsic"
+                width={800}
+                height={533}
                 className="bento-image"
               />
             </div>
