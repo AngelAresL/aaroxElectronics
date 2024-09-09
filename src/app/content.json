@@ -267,7 +267,91 @@
       "success": "Message sent"
     },
     "Gallery": {
-      "title": "Some of our work"
+      "title": "Some of our work",
+      "image1": {
+        "title": "Our first industrial SBC.",
+        "text1": "Single Board Computer, 6 layers for cost optimization, routed in Altium.",
+        "text2": "1 full layer dedicated to ground plane, 1 full layer dedicated to power planes.",
+        "text3": "Full system working in first version, including DDR stress testing."
+      },
+      "image2": {
+        "title": "Our second SBC, with more interfaces.",
+        "text1": "More compact board to replace several thousand non-industrial boards in the field.",
+        "text2": "Industrial grade design, with Ethernet, Wifi, 4-USBs, HDMI, Audio and I/Os.",
+        "text3": "Full system working in first version, including DDR stress testing."
+      },
+      "image3": {
+        "title": "Detail of DDR routing.",
+        "text1": "DDR length matched and impedance controlled tracking.",
+        "text2": "Several other impedance controlled tracks (Ethernet, USBs).",
+        "text3": "eMMC special tracking to reduce cost in manufacturing and assembly."
+      },
+      "image4": {
+        "title": "Embedded power distribution.",
+        "text1": "7 Power supplies, including SMPS and LDOs.",
+        "text2": "All designed with discrete components due to cost and layout reasons.",
+        "text3": "Top and bottom placement used for optimized node length."
+      },
+      "image5": {
+        "title": "USB to RS-485 isolated converter.",
+        "text1": "Optocoupled, due to cost reasons and market alternatives.",
+        "text2": "Integrated power module due to low volumes (several hundreds/year).",
+        "text3": "Optional RS-232, UART, CAN options not fitted."
+      },
+      "image6": {
+        "title": "Our first Input/Output module.",
+        "text1": "2 layers PCB, single side placement. Produced over 2K units, zero returns.",
+        "text2": "Isolated USB and processor from Supply.",
+        "text3": "Isolated inputs, isolated and protected outputs, 4 relays."
+      },
+      "image7": {
+        "title": "DIN rail plastic case.",
+        "text1": "With custom DIN rail case to be mounted directly in a panel.",
+        "text2": "All cables vertical down, except supply and auxiliary.",
+        "text3": "Now, this housing is made of extruded aluminium, with DIN rail or wall mount option."
+      },
+      "image8": {
+        "title": "Best lifetime, designed to last forever.",
+        "text1": "In 6 years, we did not have any single return, when modules operate 24/7.",
+        "text2": "Big part of this is due to the PSU design, with no electrolytics.",
+        "text3": "Also, designed with all kind of protections, including human errors."
+      },
+      "image9": {
+        "title": "Our first Multi-Input/Output PLC.",
+        "text1": "Programmable PLC with several inputs and outputs.",
+        "text2": "Fully designed at Aarox, including HW, FW, SW and Remote Web for managing.",
+        "text3": "First evolution of what now is Cobalto Modules, computer + PLC integrated."
+      },
+      "image10": {
+        "title": "Detail of Single Board Computer.",
+        "text1": "1 GHz processor, 2 co-processors, 1 Gb of DDR and 1 GB of eMMC.",
+        "text2": "Ethernet, RTC with ultra-cap, multiple USBs.",
+        "text3": "Designed to run 24/7 in environments up to +85 °C."
+      },
+      "image11": {
+        "title": "Powered by AC or DC supply.",
+        "text1": "Designed with very compact power supply, AC or DC.",
+        "text2": "Plug-in connectors, for fast interconnection in the field.",
+        "text3": "DIN rail or wall mounting, designed for the industry."
+      },
+      "image12": {
+        "title": "Module for High Voltage measurement.",
+        "text1": "Module with several digital I/Os and several HV measurement.",
+        "text2": "Being able to compute RMS and measure up to 400 Vrms.",
+        "text3": "With optional relays to be fitted instead of measurements."
+      },
+      "image13": {
+        "title": "Display module of Cobalto Modules.",
+        "text1": "Designed with 7 inch display, capacitive touch.",
+        "text2": "HW, FW and SW fully designed at Aarox Electronics.",
+        "text3": "Designed for directly mounting on customer machine."
+      },
+      "image14": {
+        "title": "Detail of AC power supply.",
+        "text1": "Very compact Flyback, with 5 isolated rails.",
+        "text2": "Designed with 2 daughter boards, assembled separately, to meet dimensions.",
+        "text3": "Quasi-resonant Flyback to reduce heat and improve EMI."
+      }
     },
     "Footer": {
       "policy": "Privacy policy",
@@ -548,7 +632,91 @@
       "success": "Mensaje enviado"
     },
     "Gallery": {
-      "title": "Algo de nuestro trabajo"
+      "title": "Algo de nuestro trabajo",
+      "image1": {
+        "title": "Nuestro primer SBC industrial.",
+        "text1": "Computadora Monoplaca (SBC), 6 capas para optimizar coste, ruteada en Altium.",
+        "text2": "1 capa completa dedicada a plano de masa, 1 capa completa dedicada a planos de alimentación.",
+        "text3": "Sistema completo funcionando en la primera versión, incluyendo test de estrés DDR."
+      },
+      "image2": {
+        "title": "Nuestro segundo SBC, con más interfaces.",
+        "text1": "Placa más compacta para reemplazar varios miles de placas no industriales.",
+        "text2": "Diseño de grado industrial, con Ethernet, Wifi, 4 USBs, Audio y varias E/S.",
+        "text3": "Sistema completo funcionando en la primera versión, incluyendo test de estrés DDR."
+      },
+      "image3": {
+        "title": "Detalle del ruteado de la DDR.",
+        "text1": "Largo de pistas de la DDR coincidentes y control de impedancia de la placa.",
+        "text2": "Algunas otras pistas con control de impedancia (Ethernet, USBs).",
+        "text3": "Ruteado especial de la eMMC para reducir costes en fabricación y montaje."
+      },
+      "image4": {
+        "title": "Distribución de potencia en módulo embebido.",
+        "text1": "7 Fuentes de alimentación, incluyendo conmutadas y lineales.",
+        "text2": "Todo diseñado con componentes discretos por razones de coste y de distribución en placa.",
+        "text3": "Componentes montados en ambas caras para optimizar el largo de los nodos."
+      },
+      "image5": {
+        "title": "Convertidor aislado de USB a RS-485.",
+        "text1": "Optoacoplado, debido a razones de coste y de alternativas de mercado.",
+        "text2": "Modulo integrado de alimentación debido a bajos volúmenes (varios cientos al año)",
+        "text3": "RS-232, UART, CAN opcionales, no montadas."
+      },
+      "image6": {
+        "title": "Nuestro primer módulo de Entradas/Salidas.",
+        "text1": "Placa de 2 capas, montaje a una sola cara. Más de 2K unidades producidas, ninguna unidad retornada.",
+        "text2": "USB y procesador aislados de fuente de alimentación.",
+        "text3": "Entradas aisladas, salidas protegidas y aisladas, 4 relés."
+      },
+      "image7": {
+        "title": "Bandeja plástica para carril DIN.",
+        "text1": "Con caja para carril DIN a medida para ser montada directamente en panel.",
+        "text2": "Todos los cables orientados en vertical hacia abajo, excepto la alimentación y la conexión auxiliar.",
+        "text3": "Ahora, esta caja está hecha de aluminio, con la opción de montaje en carril DIN o en pared."
+      },
+      "image8": {
+        "title": "Diseñado para funcionar siempre.",
+        "text1": "En 6 años, no hemos tenido ni una sola devolución, funcionando 24/7.",
+        "text2": "Esto es debido en gran parte al diseño de la fuente de alimentación, sin electrolíticos.",
+        "text3": "También, diseñado con toda clase de protecciones, incluyendo errores humanos."
+      },
+      "image9": {
+        "title": "Nuestro primer PLC Multi-Entrada/Salida.",
+        "text1": "PLC programable con varias entradas y salidas.",
+        "text2": "Totalmente diseñado en Aarox, incluyendo HW, FW, SW y Web remota para gestión.",
+        "text3": "Primera evolución de lo que hoy es Cobalto Modules."
+      },
+      "image10": {
+        "title": "Detalle de Computadora Monoplaca (SBC).",
+        "text1": "Procesador de 1 GHz, 2 Co-procesadores, 1 Gb de DDR y 1 GB de eMMC.",
+        "text2": "Ethernet, RTC con Ultra-condensador, Múltiples USBs.",
+        "text3": "Diseñada para funcionar 24/7 en ambientes hasta +85 °C."
+      },
+      "image11": {
+        "title": "Fuente de alimentación CA o CC.",
+        "text1": "Diseñado con una fuente de alimentación muy compacta, CA o CC.",
+        "text2": "Conectores enchufables, para una interconexión rápida en campo.",
+        "text3": "Carril DIN o montaje en pared, diseñado para la industria."
+      },
+      "image12": {
+        "title": "Módulo para medida de Alta Tensión (HV).",
+        "text1": "Módulo con varias E/S digitales y varias medidas de Alta Tensión.",
+        "text2": "Con capacidad de cómputo de RMS y medida de hasta 400 Vrms.",
+        "text3": "Con relés opcionales montados en lugar de las medidas."
+      },
+      "image13": {
+        "title": "Módulo de pantalla de Cobalto Modules",
+        "text1": "Diseñado con una pantalla de 7 pulgadas, táctil capacitiva.",
+        "text2": "HW, FW y SW totalmente diseñados en Aarox Electronics.",
+        "text3": "Diseñado para montar directamente en la maquinaria del cliente."
+      },
+      "image14": {
+        "title": "Detalle de la Fuente de Alimentación CA.",
+        "text1": "Flyback muy compacto, con 5 salidas aisladas.",
+        "text2": "Diseñado con 2 placas auxiliares, montadas de forma separada, para cumplir dimensiones.",
+        "text3": "El Flyback es Quasi-resonante para reducir temperatura y mejorar EMI."
+      }
     },
     "Footer": {
       "policy": "Política de privacidad",

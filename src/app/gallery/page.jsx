@@ -22,39 +22,78 @@ export default function Gallery() {
       document.body.style.overflow = "auto";
     };
   }, [selectedImageIndex]);
+  const uno = 1;
 
   const images = [
     {
-      src: "/gallery/01_Small.webp",
-      alt: "01 Multi-I/O PLC",
-      className: "small",
+      src: "/gallery/01_Wide.webp",
+      alt: content[language].Gallery.image1.title,
+      className: "wide",
     },
     {
-      src: "/gallery/01_Small.webp",
-      alt: "01 Multi-I/O PLC",
-      className: "small",
-    },
-    {
-      src: "/gallery/03_Large.webp",
-      alt: "03 Large Image",
-      className: "large",
-    },
-    { src: "/gallery/04_Wide.webp", alt: "04 Wide Image", className: "wide" },
-    { src: "/gallery/05_High.webp", alt: "05 High Image", className: "high" },
-    {
-      src: "/gallery/06_Small.webp",
-      alt: "06 Small Image",
-      className: "small",
-    },
-    {
-      src: "/gallery/03_Large.webp",
-      alt: "03 Large Image",
+      src: "/gallery/02_Large.webp",
+      alt: content[language].Gallery.image2.title,
       className: "large",
     },
     {
-      src: "/gallery/01_Small.webp",
-      alt: "01 Multi-I/O PLC",
+      src: "/gallery/03_Small.webp",
+      alt: content[language].Gallery.image3.title,
       className: "small",
+    },
+    {
+      src: "/gallery/04_Small.webp",
+      alt: content[language].Gallery.image4.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/05_Large.webp",
+      alt: content[language].Gallery.image5.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/06_Large.webp",
+      alt: content[language].Gallery.image6.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/07_Small.webp",
+      alt: content[language].Gallery.image7.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/08_Small.webp",
+      alt: content[language].Gallery.image8.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/09_Large.webp",
+      alt: content[language].Gallery.image9.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/10_Small.webp",
+      alt: content[language].Gallery.image10.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/11_Small.webp",
+      alt: content[language].Gallery.image11.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/12_Large.webp",
+      alt: content[language].Gallery.image12.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/13_High.webp",
+      alt: content[language].Gallery.image13.title,
+      className: "high",
+    },
+    {
+      src: "/gallery/14_High.webp",
+      alt: content[language].Gallery.image14.title,
+      className: "high",
     },
   ];
 
@@ -118,7 +157,12 @@ export default function Gallery() {
                 className="bento-image"
               />
             </div>
-            <div className="image-text">{image.alt}</div>
+            <div className="image-text">
+              <div className="index-title">
+                {index + 1 < 10 ? `0${index + 1}` : index + 1}
+              </div>
+              <div>{image.alt}</div>
+            </div>
           </div>
         ))}
       </div>
@@ -143,13 +187,33 @@ export default function Gallery() {
               />
             </div>
             <div className="expanded-image-text">
-              <h3>{images[selectedImageIndex].alt}</h3>
-              <p>Programmable PLC with several inputs and outputs.</p>
+              <div className="title-container">
+                <h3 className="index-title">
+                  {selectedImageIndex + 1 < 10
+                    ? `0${selectedImageIndex + 1}`
+                    : selectedImageIndex + 1}
+                </h3>
+                <h3>{images[selectedImageIndex].alt}</h3>
+              </div>
+
               <p>
-                Fully designed at Aarox, including HW, FW, SW and Remote Web for
-                managing.
+                {
+                  content[language].Gallery[`image${selectedImageIndex + 1}`]
+                    .text1
+                }
               </p>
-              <p>First evolution of what now is Cobalto Modules.</p>
+              <p>
+                {
+                  content[language].Gallery[`image${selectedImageIndex + 1}`]
+                    .text2
+                }
+              </p>
+              <p>
+                {
+                  content[language].Gallery[`image${selectedImageIndex + 1}`]
+                    .text3
+                }
+              </p>
             </div>
 
             <button
