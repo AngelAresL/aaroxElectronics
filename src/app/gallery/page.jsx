@@ -180,7 +180,7 @@ export default function Gallery() {
               <Image
                 src={images[selectedImageIndex].src}
                 alt={images[selectedImageIndex].alt}
-                layout="intrinsic"
+                
                 width={800}
                 height={533}
                 className="bento-image"
