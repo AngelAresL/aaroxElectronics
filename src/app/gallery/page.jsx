@@ -175,15 +175,18 @@ export default function Gallery() {
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
         >
-          <div className="expanded-image-container">
+          <div
+            className={`expanded-image-container ${
+              images[selectedImageIndex].className === "high" ? "high" : ""
+            }`}
+          >
             <div className="expanded-image">
               <Image
                 src={images[selectedImageIndex].src}
                 alt={images[selectedImageIndex].alt}
-                
                 width={800}
                 height={533}
-                className="bento-image"
+                className={`bento-image ${images[selectedImageIndex].className}`}
               />
             </div>
             <div className="expanded-image-text">
@@ -193,22 +196,52 @@ export default function Gallery() {
                     ? `0${selectedImageIndex + 1}`
                     : selectedImageIndex + 1}
                 </h3>
-                <h3>{images[selectedImageIndex].alt}</h3>
+                <h3 className="popo">{images[selectedImageIndex].alt}</h3>
               </div>
 
-              <p>
+              <p
+                className={`dynamic-padding ${
+                  selectedImageIndex + 1 === 1 || selectedImageIndex + 1 === 7
+                    ? "index-01-07"
+                    : selectedImageIndex + 1 === 11
+                    ? "index-11"
+                    : selectedImageIndex + 1 < 10
+                    ? "large-index"
+                    : "small-index"
+                }`}
+              >
                 {
                   content[language].Gallery[`image${selectedImageIndex + 1}`]
                     .text1
                 }
               </p>
-              <p>
+              <p
+                className={`dynamic-padding ${
+                  selectedImageIndex + 1 === 1 || selectedImageIndex + 1 === 7
+                    ? "index-01-07"
+                    : selectedImageIndex + 1 === 11
+                    ? "index-11"
+                    : selectedImageIndex + 1 < 10
+                    ? "large-index"
+                    : "small-index"
+                }`}
+              >
                 {
                   content[language].Gallery[`image${selectedImageIndex + 1}`]
                     .text2
                 }
               </p>
-              <p>
+              <p
+                className={`dynamic-padding ${
+                  selectedImageIndex + 1 === 1 || selectedImageIndex + 1 === 7
+                    ? "index-01-07"
+                    : selectedImageIndex + 1 === 11
+                    ? "index-11"
+                    : selectedImageIndex + 1 < 10
+                    ? "large-index"
+                    : "small-index"
+                }`}
+              >
                 {
                   content[language].Gallery[`image${selectedImageIndex + 1}`]
                     .text3
