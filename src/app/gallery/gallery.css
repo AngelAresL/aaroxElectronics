@@ -327,3 +327,15 @@
     max-width: 480px;
   }
 }
+
+@media (max-height: 800px) and (min-height: 700px) {
+  .expanded-image img.high {
+    max-height: 550px;
+  }
+  
+  .expanded-image-container.high {
+    max-width: 370px;
+  }
+}
+
+
