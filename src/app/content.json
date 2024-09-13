@@ -269,84 +269,222 @@
     "Gallery": {
       "title": "Some of our work",
       "image1": {
+        "title": "Multiple low power flyback transformers.",
+        "text1": "Some of them fully specified by Aarox Electronics down to Nturns, wire and core.",
+        "text2": "Designed for several projects, all low power (< 100W).",
+        "text3": "Some of them for DC-DC and others for AC-DC."
+      },
+      "image2": {
+        "title": "HV flyback DC-DC with optocoupler.",
+        "text1": "DC-DC designed to provide auxiliary supply to a 3.6KW industrial charger.",
+        "text2": "4 independent rails to power several isolated sections of a unit.",
+        "text3": "Powered from PFC DC-Link capacitors directly, through EMC input filter."
+      },
+      "image3": {
+        "title": "Multiple mid power flyback transformers.",
+        "text1": "Some of them fully specified by Aarox Electronics down to Nturns, wire and core.",
+        "text2": "Designed for several projects, all mid power (> 100W).",
+        "text3": "All of them for AC to DC applications."
+      },
+      "image4": {
+        "title": "LV flyback DC-DC with no optocoupler.",
+        "text1": "DC-DC designed to operate with no optocoupler due to cost and lifetime.",
+        "text2": "Primary regulated with auxiliary winding, also for biasing.",
+        "text3": "Very good regulation due to effort in transformer design, specified by Aarox."
+      },
+      "image5": {
+        "title": "Multiple high power common mode chokes.",
+        "text1": "Some of them specified by Aarox Electronics, down to material type and wire.",
+        "text2": "Comparison with an off-the-shelf option (right).",
+        "text3": "All for high power applications (over 1 KW)."
+      },
+      "image6": {
+        "title": "Comparison of several common mode chokes.",
+        "text1": "Small one for a 20W flyback for a computer module.",
+        "text2": "The other two for high power applications (over 1 KW).",
+        "text3": "High Power ones use nanocrystalline cores due to performance."
+      },
+      "image7": {
+        "title": "Several PFC inductors for a 7.2KW OBC.",
+        "text1": "Many studies and developments done to find the best core materials.",
+        "text2": "Cost and performance are the key factors in the design.",
+        "text3": "All of them fully specified by Aarox Electronics down to Nturns, wire and core."
+      },
+      "image8": {
+        "title": "Multiple PFC chokes.",
+        "text1": "All of them fully specified by Aarox Electronics down to Nturns, wire and core.",
+        "text2": "Always targeting cost effectiveness for very high volume markets.",
+        "text3": "We have tested over the years dozens of materials from several manufacturers."
+      },
+      "image9": {
+        "title": "Winding details of PFC chokes.",
+        "text1": "Solid wire for the ring core and Litz for the E-core.",
+        "text2": "Double internal layer winding in the ring core, for full external occupation.",
+        "text3": "All for high power applications (over 1 KW)."
+      },
+      "image10": {
+        "title": "PFC chokes and common mode chokes in a PFC.",
+        "text1": "PFC module of a 11 KW prototype prepared for open test for thermal imaging.",
+        "text2": "Including inrush limiter with relay and PTC modules.",
+        "text3": "Convectional cooling to be able to correlate results with thermal models."
+      },
+      "image11": {
+        "title": "Multiple LLC transformers.",
+        "text1": "All of them specified by Aarox Electronics down to Nturns, wire and core.",
+        "text2": "Resonant inductor mechanically integrated in the construction.",
+        "text3": "All of them for power around 1 KW."
+      },
+      "image12": {
+        "title": "LLC integrated transformer.",
+        "text1": "Resonant inductor integrated as leakage inductance due to cost reasons.",
+        "text2": "For a mid power application (< 1 KW), high volume.",
+        "text3": "Mechanical constraints also important, designed for low profile."
+      },
+      "image13": {
+        "title": "LLC integrated transformer.",
+        "text1": "Top view of transformer with controlled leakage inductance.",
+        "text2": "Primary and secondary separated to create high leakage.",
+        "text3": "Special bobbin with separated windows for primary and secondary."
+      },
+      "image14": {
+        "title": "On-Board Charger transformer.",
+        "text1": "Transformer designed for bidirectional operation.",
+        "text2": "Fully specified by Aarox Electronics down to inductances, Nturns, wire and core.",
+        "text3": "Designed for a 11KW unit, operating with in water cooling."
+      },
+      "image15": {
+        "title": "OBC Aluminium housing cavities.",
+        "text1": "Water channel fully independent of electronics.",
+        "text2": "Unit designed to use potting compound in some components, glue in others.",
+        "text3": "Special potting with high thermal conductivity and special mechanical factors."
+      },
+      "image16": {
+        "title": "OBC Aluminium housing.",
+        "text1": "Water inlet and outlet for water cooling, fully independent of electronics.",
+        "text2": "Fully conceptualized by Aarox Electronics, down to tolerance analysis.",
+        "text3": "Interfacing with electronics designed by Aarox, down to material selection."
+      },
+      "image17": {
+        "title": "Detail of PFC unit in 3.6 KW charger.",
+        "text1": "Interleaved PFC with 2 coils and bulk capacitors designed for brown-out timing.",
+        "text2": "Second stage is a PSFB, with detail of resonant inductor.",
+        "text3": "Control sit on secondary, with gate transformers for PRI-SEC isolation."
+      },
+      "image18": {
+        "title": "Primary and secondary of a 3.6 KW charger.",
+        "text1": "Detail of all magnetics, including the 3.6 KW transformer.",
+        "text2": "Secondary designed in full SMD for assembly cost optimization.",
+        "text3": "Analog control in both PFC and DC-DC, parameters controlled with microcontroller."
+      },
+      "image19": {
+        "title": "11 KW EV OBC transformer prepared for testing.",
+        "text1": "Transformer fitted with thermocouples inside for temperature test.",
+        "text2": "We also have thermal images with no cooling, at reduced operational power.",
+        "text3": "Designed with full Litz wire due to operation frequencies."
+      },
+      "image20": {
+        "title": "11 KW EV OBC current sensing in CLLLC.",
+        "text1": "Very high AC currents in both primary and secondary of the CLLLC.",
+        "text2": "Current measurements used for fault detection and control.",
+        "text3": "Both currents fed into a DSP, isolated from primary and secondary."
+      },
+      "image21": {
+        "title": "11 KW EV OBC detail of primary CLLLC.",
+        "text1": "SMD Mosfets with bottom side cooling, through PCB.",
+        "text2": "Several thousand hours dedicated to thermal research for optimal cost.",
+        "text3": "Special effort in layout routing in these areas for electrical optimization."
+      },
+      "image22": {
+        "title": "11 KW EV OBC detail of PFC.",
+        "text1": "SMD Mosfets with bottom side cooling, through PCB.",
+        "text2": "Current measurement with Hall effect sensor, SW filtered and optimized.",
+        "text3": "Zero crossing implemented with special SW algorithms for accuracy."
+      },
+      "image23": {
+        "title": "Top view of 11 KW EV OBC.",
+        "text1": "Designed in 2 boards for prototyping, matching mechanical structure.",
+        "text2": "SMD components cooled down through PCB with thermal paste.",
+        "text3": "Digital control with 2 DSPs, one for the PFC, the other one for the CLLLC."
+      },
+      "image24": {
         "title": "Our first industrial SBC.",
         "text1": "Single Board Computer, 6 layers for cost optimization, routed in Altium.",
         "text2": "1 full layer dedicated to ground plane, 1 full layer dedicated to power planes.",
         "text3": "Full system working in first version, including DDR stress testing."
       },
-      "image2": {
+      "image25": {
         "title": "Our second SBC, with more interfaces.",
         "text1": "More compact board to replace several thousand non-industrial boards in the field.",
         "text2": "Industrial grade design, with Ethernet, Wifi, 4-USBs, HDMI, Audio and I/Os.",
         "text3": "Full system working in first version, including DDR stress testing."
       },
-      "image3": {
+      "image26": {
         "title": "Detail of DDR routing.",
         "text1": "DDR length matched and impedance controlled tracking.",
         "text2": "Several other impedance controlled tracks (Ethernet, USBs).",
         "text3": "eMMC special tracking to reduce cost in manufacturing and assembly."
       },
-      "image4": {
+      "image27": {
         "title": "Embedded power distribution.",
         "text1": "7 Power supplies, including SMPS and LDOs.",
         "text2": "All designed with discrete components due to cost and layout reasons.",
         "text3": "Top and bottom placement used for optimized node length."
       },
-      "image5": {
+      "image28": {
         "title": "USB to RS-485 isolated converter.",
         "text1": "Optocoupled, due to cost reasons and market alternatives.",
         "text2": "Integrated power module due to low volumes (several hundreds/year).",
         "text3": "Optional RS-232, UART, CAN options not fitted."
       },
-      "image6": {
+      "image29": {
         "title": "Our first Input/Output module.",
         "text1": "2 layers PCB, single side placement. Produced over 2K units, zero returns.",
         "text2": "Isolated USB and processor from Supply.",
         "text3": "Isolated inputs, isolated and protected outputs, 4 relays."
       },
-      "image7": {
+      "image30": {
         "title": "DIN rail plastic case.",
         "text1": "With custom DIN rail case to be mounted directly in a panel.",
         "text2": "All cables vertical down, except supply and auxiliary.",
         "text3": "Now, this housing is made of extruded aluminium, with DIN rail or wall mount option."
       },
-      "image8": {
+      "image31": {
         "title": "Best lifetime, designed to last forever.",
         "text1": "In 6 years, we did not have any single return, when modules operate 24/7.",
         "text2": "Big part of this is due to the PSU design, with no electrolytics.",
-        "text3": "Also, designed with all kind of protections, including human errors."
+        "text3": "Also, designed with all kinds of protections, including human errors."
       },
-      "image9": {
+      "image32": {
         "title": "Our first Multi-Input/Output PLC.",
         "text1": "Programmable PLC with several inputs and outputs.",
         "text2": "Fully designed at Aarox, including HW, FW, SW and Remote Web for managing.",
         "text3": "First evolution of what now is Cobalto Modules, computer + PLC integrated."
       },
-      "image10": {
+      "image33": {
         "title": "Detail of Single Board Computer.",
         "text1": "1 GHz processor, 2 co-processors, 1 Gb of DDR and 1 GB of eMMC.",
         "text2": "Ethernet, RTC with ultra-cap, multiple USBs.",
         "text3": "Designed to run 24/7 in environments up to +85 °C."
       },
-      "image11": {
+      "image34": {
         "title": "Powered by AC or DC supply.",
         "text1": "Designed with very compact power supply, AC or DC.",
         "text2": "Plug-in connectors, for fast interconnection in the field.",
         "text3": "DIN rail or wall mounting, designed for the industry."
       },
-      "image12": {
+      "image35": {
         "title": "Module for High Voltage measurement.",
         "text1": "Module with several digital I/Os and several HV measurement.",
         "text2": "Being able to compute RMS and measure up to 400 Vrms.",
         "text3": "With optional relays to be fitted instead of measurements."
       },
-      "image13": {
+      "image36": {
         "title": "Display module of Cobalto Modules.",
-        "text1": "Designed with 7 inch display, capacitive touch.",
+        "text1": "Designed with 7-inch display, capacitive touch.",
         "text2": "HW, FW and SW fully designed at Aarox Electronics.",
         "text3": "Designed for directly mounting on customer machine."
       },
-      "image14": {
+      "image37": {
         "title": "Detail of AC power supply.",
         "text1": "Very compact Flyback, with 5 isolated rails.",
         "text2": "Designed with 2 daughter boards, assembled separately, to meet dimensions.",
@@ -634,88 +772,226 @@
     "Gallery": {
       "title": "Algo de nuestro trabajo",
       "image1": {
+        "title": "Varios transformadores flyback de baja potencia.",
+        "text1": "Algunos de ellos totalmente especificados por Aarox Electronics hasta Nvueltas, hilo y núcleo.",
+        "text2": "Diseñados para varios proyectos, todos de baja potencia (< 100W).",
+        "text3": "Algunos de ellos para CC-CC y otros para CA-CC."
+      },
+      "image2": {
+        "title": "Flyback CC-CC de alta tensión con optoacoplador.",
+        "text1": "CC-CC diseñado para proporcionar alimentación auxiliar a un cargador industrial de 3.6KW.",
+        "text2": "4 salidas independientes para alimentar varias secciones aisladas de una unidad.",
+        "text3": "Alimentado desde los condensadores DC-Link del PFC directamente, a través del filtro EMC de entrada."
+      },
+      "image3": {
+        "title": "Varios transformadores flyback de media potencia.",
+        "text1": "Algunos de ellos totalmente especificados por Aarox Electronics hasta Nvueltas, hilo y núcleo.",
+        "text2": "Diseñados para varios proyectos, todos de media potencia (> 100W).",
+        "text3": "Todos ellos para aplicaciones CA a CC."
+      },
+      "image4": {
+        "title": "Flyback CC-CC de baja tensión sin optoacoplador.",
+        "text1": "CC-CC diseñado para operar sin optoacoplador debido a coste y fiabilidad.",
+        "text2": "Regulado desde el primario con bobinado auxiliar, también para alimentación.",
+        "text3": "Muy buena regulación debido al trabajo realizado en el diseño del transformador, especificado por Aarox."
+      },
+      "image5": {
+        "title": "Varios filtros de modo común para alta potencia.",
+        "text1": "Algunos de ellos especificados por Aarox Electronics, hasta el tipo de material y el hilo.",
+        "text2": "Comparación con una opción estándar (derecha).",
+        "text3": "Todos para aplicaciones de alta potencia (por encima de 1 KW)."
+      },
+      "image6": {
+        "title": "Comparación de varios filtros de modo común.",
+        "text1": "El más pequeño para un flyback de 20W para una computadora modular.",
+        "text2": "Los otros dos para aplicaciones de alta potencia (por encima de 1 KW).",
+        "text3": "Los de alta potencia usan núcleos nanocristalinos debido a la eficiencia."
+      },
+      "image7": {
+        "title": "Varios inductores de PFC para un OBC de 7.2KW.",
+        "text1": "Multitud de estudios y desarrollos realizados para encontrar los mejores materiales para el núcleo.",
+        "text2": "Coste y eficiencia son los factores clave en el diseño.",
+        "text3": "Todos ellos totalmente especificados por Aarox Electronics hasta el Nvueltas, hilo y núcleo."
+      },
+      "image8": {
+        "title": "Varios inductores para PFC.",
+        "text1": "Todos ellos totalmente especificados por Aarox Electronics hasta el Nvueltas, hilo y núcleo.",
+        "text2": "Siempre con el objetivo de un coste efectivo para mercados de muy alto volumen.",
+        "text3": "Hemos testeado a lo largo de los años docenas de materiales de varios fabricantes."
+      },
+      "image9": {
+        "title": "Detalle del devanado de los inductores PFC.",
+        "text1": "Hilo sólido para el núcleo en anillo y cable Litz para el núcleo en E.",
+        "text2": "Doble capa interna de devanado en el núcleo en anillo, para una ocupación externa completa.",
+        "text3": "Todos para aplicaciones de alta potencia (sobre 1 KW)."
+      },
+      "image10": {
+        "title": "Inductores PFC y filtros de modo común en un PFC.",
+        "text1": "Módulo PFC de un prototipo de 11 KW preparado para test sin encapsular para imágenes térmicas.",
+        "text2": "Incluye limitador de corriente de pico con relé y módulos PTC.",
+        "text3": "Refrigeración por convección para poder hacer correlación de resultados con los modelos térmicos."
+      },
+      "image11": {
+        "title": "Varios transformadores LLC.",
+        "text1": "Todos ellos especificados por Aarox Electronics hasta el Nvueltas, hilo y núcleo.",
+        "text2": "Inductor resonante integrado mecánicamente en la construcción.",
+        "text3": "Todos ellos para potencias alrededor de 1 KW."
+      },
+      "image12": {
+        "title": "Transformador LLC integrado.",
+        "text1": "Inductor resonante integrado como inductancia de dispersión debido a razones de coste.",
+        "text2": "Para aplicaciones de media potencia (< 1 KW), alto volumen.",
+        "text3": "Las restricciones mecánicas son también importantes, diseñado para un perfil bajo."
+      },
+      "image13": {
+        "title": "Transformador LLC integrado.",
+        "text1": "Vista desde arriba del transformador con inductancia de dispersión controlada.",
+        "text2": "Primario y secundario separados para crear alta inductancia de dispersión.",
+        "text3": "Bobina especial con ventanas separadas para el primario y el secundario."
+      },
+      "image14": {
+        "title": "Transformador para Cargador Embarcado (OBC).",
+        "text1": "Transformador diseñado para operar bidireccionalmente.",
+        "text2": "Totalmente especificado por Aarox Electronics hasta las inductancias, Nvueltas, hilo y núcleo.",
+        "text3": "Diseñado para una unidad de 11 KW, operando con refrigeración líquida."
+      },
+      "image15": {
+        "title": "Cavidades del encapsulado de aluminio del OBC.",
+        "text1": "Canal de refrigeración totalmente independiente de la electrónica.",
+        "text2": "Unidad diseñada para usar compuesto aislante en algunos componentes, pegamento en otros.",
+        "text3": "Aislante especial con alta conductividad térmica y factores mecánicos especiales."
+      },
+      "image16": {
+        "title": "Encapsulado de aluminio del cargador.",
+        "text1": "Entrada y salida de agua para refrigeración líquida, totalmente independiente de la electrónica.",
+        "text2": "Totalmente conceptualizado por Aarox Electronics, hasta el análisis de tolerancias.",
+        "text3": "Interfaz con la electrónica diseñado por Aarox, hasta la selección de materiales."
+      },
+      "image17": {
+        "title": "Detalle de la unidad PFC en un cargador de 3.6 KW.",
+        "text1": "PFC entrelazado con 2 inductores y condensadores diseñados para respuesta en corte de tensión.",
+        "text2": "La segunda etapa es un PSFB, con el detalle del inductor resonante.",
+        "text3": "El control se sitúa en el secundario, con los transformadores de puerta para aislamiento PRI-SEC."
+      },
+      "image18": {
+        "title": "Primario y secundario de un cargador de 3.6 KW.",
+        "text1": "Detalle de todos los magnéticos, incluyendo el transformador de 3.6 KW.",
+        "text2": "Secundario diseñado totalmente en SMD para optimización del coste de fabricación.",
+        "text3": "Control analógico en ambos PFC y CC-CC, parámetros controlados con un microcontrolador."
+      },
+      "image19": {
+        "title": "Transformador de un cargador embarcado de coche eléctrico de 11 KW.",
+        "text1": "Transformador con termopares internos para test de temperatura.",
+        "text2": "El transformador no puede ser testeado a potencia completa.",
+        "text3": "Diseñado completamente con cable Litz debido a la frecuencia de operación."
+      },
+      "image20": {
+        "title": "Medida de corriente en un CLLLC de un cargador embarcado.",
+        "text1": "Corrientes CA muy elevadas en ambos primario y secundario del CLLLC.",
+        "text2": "Medidas de corriente usadas para la detección de fallos y control.",
+        "text3": "Ambas corrientes inyectadas en el DSP, aislada del primario y del secundario."
+      },
+      "image21": {
+        "title": "Detalle del primario de un CLLLC de un cargador embarcado.",
+        "text1": "Mosfets SMD con refrigeración desde la cara inferior, a través de la PCB.",
+        "text2": "Varios miles de horas dedicadas a la investigación térmica para un coste óptimo.",
+        "text3": "Especial dedicación en el ruteado de estas áreas para una optimización eléctrica."
+      },
+      "image22": {
+        "title": "Detalle del PFC de un OBC de 11 KW.",
+        "text1": "Mosfets SMD con refrigeración desde la cara inferior, a través de la PCB.",
+        "text2": "Medida de corriente con sensor de efecto Hall, filtrado y optimizado en SW.",
+        "text3": "Cruce por cero implementado en SW con algoritmos especiales para precisión."
+      },
+      "image23": {
+        "title": "Vista desde arriba de OBC de 11 KW.",
+        "text1": "Diseñado en 2 placas para prototipado, coincidiendo con estructura mecánica.",
+        "text2": "Componentes SMD refrigerados desde abajo a través de la PCB con pasta térmica.",
+        "text3": "Control digital con 2 DSPs, una para el PFC, la otra para el CLLLC."
+      },
+      "image24": {
         "title": "Nuestro primer SBC industrial.",
         "text1": "Computadora Monoplaca (SBC), 6 capas para optimizar coste, ruteada en Altium.",
         "text2": "1 capa completa dedicada a plano de masa, 1 capa completa dedicada a planos de alimentación.",
         "text3": "Sistema completo funcionando en la primera versión, incluyendo test de estrés DDR."
       },
-      "image2": {
+      "image25": {
         "title": "Nuestro segundo SBC, con más interfaces.",
         "text1": "Placa más compacta para reemplazar varios miles de placas no industriales.",
         "text2": "Diseño de grado industrial, con Ethernet, Wifi, 4 USBs, Audio y varias E/S.",
         "text3": "Sistema completo funcionando en la primera versión, incluyendo test de estrés DDR."
       },
-      "image3": {
+      "image26": {
         "title": "Detalle del ruteado de la DDR.",
         "text1": "Largo de pistas de la DDR coincidentes y control de impedancia de la placa.",
         "text2": "Algunas otras pistas con control de impedancia (Ethernet, USBs).",
         "text3": "Ruteado especial de la eMMC para reducir costes en fabricación y montaje."
       },
-      "image4": {
+      "image27": {
         "title": "Distribución de potencia en módulo embebido.",
         "text1": "7 Fuentes de alimentación, incluyendo conmutadas y lineales.",
         "text2": "Todo diseñado con componentes discretos por razones de coste y de distribución en placa.",
         "text3": "Componentes montados en ambas caras para optimizar el largo de los nodos."
       },
-      "image5": {
+      "image28": {
         "title": "Convertidor aislado de USB a RS-485.",
-        "text1": "Optoacoplado, debido a razones de coste y de alternativas de mercado.",
-        "text2": "Modulo integrado de alimentación debido a bajos volúmenes (varios cientos al año)",
+        "text1": "Opto-acoplado, debido a razones de coste y de alternativas de mercado.",
+        "text2": "Módulo integrado de alimentación debido a bajos volúmenes (varios cientos al año).",
         "text3": "RS-232, UART, CAN opcionales, no montadas."
       },
-      "image6": {
+      "image29": {
         "title": "Nuestro primer módulo de Entradas/Salidas.",
         "text1": "Placa de 2 capas, montaje a una sola cara. Más de 2K unidades producidas, ninguna unidad retornada.",
         "text2": "USB y procesador aislados de fuente de alimentación.",
         "text3": "Entradas aisladas, salidas protegidas y aisladas, 4 relés."
       },
-      "image7": {
+      "image30": {
         "title": "Bandeja plástica para carril DIN.",
         "text1": "Con caja para carril DIN a medida para ser montada directamente en panel.",
         "text2": "Todos los cables orientados en vertical hacia abajo, excepto la alimentación y la conexión auxiliar.",
         "text3": "Ahora, esta caja está hecha de aluminio, con la opción de montaje en carril DIN o en pared."
       },
-      "image8": {
+      "image31": {
         "title": "Diseñado para funcionar siempre.",
         "text1": "En 6 años, no hemos tenido ni una sola devolución, funcionando 24/7.",
         "text2": "Esto es debido en gran parte al diseño de la fuente de alimentación, sin electrolíticos.",
         "text3": "También, diseñado con toda clase de protecciones, incluyendo errores humanos."
       },
-      "image9": {
+      "image32": {
         "title": "Nuestro primer PLC Multi-Entrada/Salida.",
         "text1": "PLC programable con varias entradas y salidas.",
         "text2": "Totalmente diseñado en Aarox, incluyendo HW, FW, SW y Web remota para gestión.",
         "text3": "Primera evolución de lo que hoy es Cobalto Modules."
       },
-      "image10": {
+      "image33": {
         "title": "Detalle de Computadora Monoplaca (SBC).",
         "text1": "Procesador de 1 GHz, 2 Co-procesadores, 1 Gb de DDR y 1 GB de eMMC.",
-        "text2": "Ethernet, RTC con Ultra-condensador, Múltiples USBs.",
+        "text2": "Ethernet, RTC con Ultra-condensador, múltiples USBs.",
         "text3": "Diseñada para funcionar 24/7 en ambientes hasta +85 °C."
       },
-      "image11": {
+      "image34": {
         "title": "Fuente de alimentación CA o CC.",
         "text1": "Diseñado con una fuente de alimentación muy compacta, CA o CC.",
         "text2": "Conectores enchufables, para una interconexión rápida en campo.",
         "text3": "Carril DIN o montaje en pared, diseñado para la industria."
       },
-      "image12": {
+      "image35": {
         "title": "Módulo para medida de Alta Tensión (HV).",
         "text1": "Módulo con varias E/S digitales y varias medidas de Alta Tensión.",
         "text2": "Con capacidad de cómputo de RMS y medida de hasta 400 Vrms.",
         "text3": "Con relés opcionales montados en lugar de las medidas."
       },
-      "image13": {
+      "image36": {
         "title": "Módulo de pantalla de Cobalto Modules",
         "text1": "Diseñado con una pantalla de 7 pulgadas, táctil capacitiva.",
         "text2": "HW, FW y SW totalmente diseñados en Aarox Electronics.",
         "text3": "Diseñado para montar directamente en la maquinaria del cliente."
       },
-      "image14": {
+      "image37": {
         "title": "Detalle de la Fuente de Alimentación CA.",
         "text1": "Flyback muy compacto, con 5 salidas aisladas.",
         "text2": "Diseñado con 2 placas auxiliares, montadas de forma separada, para cumplir dimensiones.",
-        "text3": "El Flyback es Quasi-resonante para reducir temperatura y mejorar EMI."
+        "text3": "El Flyback es cuasi-resonante para reducir temperatura y mejorar EMI."
       }
     },
     "Footer": {

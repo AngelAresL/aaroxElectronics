@@ -293,6 +293,9 @@
     grid-column: span 2;
     height: 280px;
   }
+  .dynamic-padding.index-20-30 {
+    padding-left: 2.5rem;
+  }
   .dynamic-padding.small-index {
     padding-left: 2.3rem;
   }
@@ -332,10 +335,8 @@
   .expanded-image img.high {
     max-height: 550px;
   }
-  
+
   .expanded-image-container.high {
     max-width: 370px;
   }
 }
-
-

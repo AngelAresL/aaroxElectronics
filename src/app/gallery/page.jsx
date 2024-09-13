@@ -26,19 +26,19 @@ export default function Gallery() {
 
   const images = [
     {
-      src: "/gallery/01_Wide.webp",
+      src: "/gallery/01_High.webp",
       alt: content[language].Gallery.image1.title,
-      className: "wide",
+      className: "high",
     },
     {
-      src: "/gallery/02_Large.webp",
+      src: "/gallery/02_Small.webp",
       alt: content[language].Gallery.image2.title,
-      className: "large",
+      className: "small",
     },
     {
-      src: "/gallery/03_Small.webp",
+      src: "/gallery/03_Large.webp",
       alt: content[language].Gallery.image3.title,
-      className: "small",
+      className: "large",
     },
     {
       src: "/gallery/04_Small.webp",
@@ -46,14 +46,14 @@ export default function Gallery() {
       className: "small",
     },
     {
-      src: "/gallery/05_Large.webp",
+      src: "/gallery/05_Wide.webp",
       alt: content[language].Gallery.image5.title,
-      className: "large",
+      className: "wide",
     },
     {
-      src: "/gallery/06_Large.webp",
+      src: "/gallery/06_Small.webp",
       alt: content[language].Gallery.image6.title,
-      className: "large",
+      className: "small",
     },
     {
       src: "/gallery/07_Small.webp",
@@ -61,14 +61,14 @@ export default function Gallery() {
       className: "small",
     },
     {
-      src: "/gallery/08_Small.webp",
+      src: "/gallery/08_Wide.webp",
       alt: content[language].Gallery.image8.title,
-      className: "small",
+      className: "wide",
     },
     {
-      src: "/gallery/09_Large.webp",
+      src: "/gallery/09_Small.webp",
       alt: content[language].Gallery.image9.title,
-      className: "large",
+      className: "small",
     },
     {
       src: "/gallery/10_Small.webp",
@@ -76,14 +76,14 @@ export default function Gallery() {
       className: "small",
     },
     {
-      src: "/gallery/11_Small.webp",
+      src: "/gallery/11_Large.webp",
       alt: content[language].Gallery.image11.title,
-      className: "small",
+      className: "large",
     },
     {
-      src: "/gallery/12_Large.webp",
+      src: "/gallery/12_High.webp",
       alt: content[language].Gallery.image12.title,
-      className: "large",
+      className: "high",
     },
     {
       src: "/gallery/13_High.webp",
@@ -91,8 +91,123 @@ export default function Gallery() {
       className: "high",
     },
     {
-      src: "/gallery/14_High.webp",
+      src: "/gallery/14_Large.webp",
       alt: content[language].Gallery.image14.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/15_Large.webp",
+      alt: content[language].Gallery.image15.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/16_Large.webp",
+      alt: content[language].Gallery.image16.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/17_Large.webp",
+      alt: content[language].Gallery.image17.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/18_Large.webp",
+      alt: content[language].Gallery.image18.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/19_Small.webp",
+      alt: content[language].Gallery.image19.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/20_High.webp",
+      alt: content[language].Gallery.image20.title,
+      className: "high",
+    },
+    {
+      src: "/gallery/21_Small.webp",
+      alt: content[language].Gallery.image21.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/22_Large.webp",
+      alt: content[language].Gallery.image22.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/23_Large.webp",
+      alt: content[language].Gallery.image23.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/24_Wide.webp",
+      alt: content[language].Gallery.image24.title,
+      className: "wide",
+    },
+    {
+      src: "/gallery/25_Large.webp",
+      alt: content[language].Gallery.image25.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/26_Small.webp",
+      alt: content[language].Gallery.image26.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/27_Small.webp",
+      alt: content[language].Gallery.image27.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/28_Large.webp",
+      alt: content[language].Gallery.image28.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/29_Large.webp",
+      alt: content[language].Gallery.image29.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/30_Small.webp",
+      alt: content[language].Gallery.image30.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/31_Small.webp",
+      alt: content[language].Gallery.image31.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/32_Large.webp",
+      alt: content[language].Gallery.image32.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/33_Small.webp",
+      alt: content[language].Gallery.image33.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/34_Small.webp",
+      alt: content[language].Gallery.image34.title,
+      className: "small",
+    },
+    {
+      src: "/gallery/35_Large.webp",
+      alt: content[language].Gallery.image35.title,
+      className: "large",
+    },
+    {
+      src: "/gallery/36_High.webp",
+      alt: content[language].Gallery.image36.title,
+      className: "high",
+    },
+    {
+      src: "/gallery/37_High.webp",
+      alt: content[language].Gallery.image37.title,
       className: "high",
     },
   ];
@@ -205,6 +320,12 @@ export default function Gallery() {
                     ? "index-01-07"
                     : selectedImageIndex + 1 === 11
                     ? "index-11"
+                    : selectedImageIndex + 1 === 21 ||
+                      selectedImageIndex + 1 === 31
+                    ? "small-index"
+                    : selectedImageIndex + 1 >= 20 &&
+                      selectedImageIndex + 1 <= 39
+                    ? "index-20-30"
                     : selectedImageIndex + 1 < 10
                     ? "large-index"
                     : "small-index"
@@ -221,6 +342,12 @@ export default function Gallery() {
                     ? "index-01-07"
                     : selectedImageIndex + 1 === 11
                     ? "index-11"
+                    : selectedImageIndex + 1 === 21 ||
+                      selectedImageIndex + 1 === 31
+                    ? "small-index"
+                    : selectedImageIndex + 1 >= 20 &&
+                      selectedImageIndex + 1 <= 39
+                    ? "index-20-30"
                     : selectedImageIndex + 1 < 10
                     ? "large-index"
                     : "small-index"
@@ -237,6 +364,12 @@ export default function Gallery() {
                     ? "index-01-07"
                     : selectedImageIndex + 1 === 11
                     ? "index-11"
+                    : selectedImageIndex + 1 === 21 ||
+                      selectedImageIndex + 1 === 31
+                    ? "small-index"
+                    : selectedImageIndex + 1 >= 20 &&
+                      selectedImageIndex + 1 <= 39
+                    ? "index-20-30"
                     : selectedImageIndex + 1 < 10
                     ? "large-index"
                     : "small-index"
